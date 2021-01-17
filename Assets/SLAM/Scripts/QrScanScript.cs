@@ -11,6 +11,7 @@ public class QrScanScript : MonoBehaviour
 
     private WebCamTexture camTexture;
     private Rect screenRect;
+    public GameObject m_optimisedTree;
 
     void Start()
     {
@@ -37,6 +38,7 @@ public class QrScanScript : MonoBehaviour
             if (result != null)
             {
                 Debug.Log("DECODED TEXT FROM QR: " +result.Text);
+                Instantiate(m_optimisedTree);
             }
         }
         catch (Exception ex) { Debug.LogWarning(ex.Message); }
