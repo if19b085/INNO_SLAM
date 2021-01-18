@@ -28,10 +28,10 @@ public class NavMeshPathScript : MonoBehaviour
         }
         for (int i = 0; i < path.corners.Length - 1; i++)
         {
-            Debug.DrawLine(path.corners[i], path.corners[i + 1], Color.red);
+            //Debug.DrawLine(path.corners[i], path.corners[i + 1], Color.red);
             
         }
-        Debug.Log(path.corners);
+        line.positionCount = path.corners.Length;
         line.SetPositions(path.corners);
         
     }

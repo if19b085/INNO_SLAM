@@ -71,9 +71,7 @@ LineRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Positions:
-  - {x: -11.3, y: 0.083331786, z: -40}
-  - {x: -94.333336, y: 0.083331786, z: -52.5}
+  m_Positions: []
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.1
