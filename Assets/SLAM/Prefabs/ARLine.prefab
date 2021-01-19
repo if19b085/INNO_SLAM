@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1247846808398188777}
   - component: {fileID: 122067207706419136}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ARLine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ LineRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 11
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}

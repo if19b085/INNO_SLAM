@@ -14,12 +14,14 @@ public class ARPathRenderer : MonoBehaviour
     {
         Instantiate(ARline);
         ARline.transform.position = new Vector3(0, 0, 0);
+        ARline.gameObject.layer = 11; //change to layer 11 that the AR Camera is set to see
+        //
     }
 
     // Update is called once per frame
     void Update()
     {
         ARline.positionCount = pathScript.path.corners.Length;
-        ARline.SetPositions(pathScript.path.corners);            
+        ARline.SetPositions(pathScript.path.corners);
     }
 }
