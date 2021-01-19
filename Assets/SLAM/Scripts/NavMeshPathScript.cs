@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class NavMeshPathScript : MonoBehaviour
 {
     public Transform target;
-    private NavMeshPath path;
+    public NavMeshPath path;
     public LineRenderer line;
     private float elapsed = 0.0f;
     void Start()
