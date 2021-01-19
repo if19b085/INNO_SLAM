@@ -9,17 +9,16 @@ public class ARPathRenderer : MonoBehaviour
 {
     public LineRenderer ARline;
     public NavMeshPathScript pathScript;
-    public ARCameraManager ARCamera;
     // Start is called before the first frame update
     void Start()
     {
         Instantiate(ARline);
+        ARline.transform.position = new Vector3(0, 0, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        ARCamera.transform.position = pathScript.path.corners[0];
         ARline.positionCount = pathScript.path.corners.Length;
         ARline.SetPositions(pathScript.path.corners);            
     }
