@@ -8,11 +8,13 @@ public class NavMeshPathScript : MonoBehaviour
     public Transform target;
     public NavMeshPath path;
     public LineRenderer line;
+    public Material pathMaterial;
     private float elapsed = 0.0f;
     void Start()
     {
         Instantiate(line);
-        
+        line.textureMode = LineTextureMode.Tile;
+        line.GetComponent<LineRenderer>().material = pathMaterial;
         this.path = new NavMeshPath();
         elapsed = 0.0f;
     }

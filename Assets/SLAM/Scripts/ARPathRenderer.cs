@@ -9,10 +9,14 @@ public class ARPathRenderer : MonoBehaviour
 {
     public LineRenderer ARline;
     public NavMeshPathScript pathScript;
+    public Material pathMaterial;
     // Start is called before the first frame update
     void Start()
     {
         Instantiate(ARline);
+
+        ARline.textureMode = LineTextureMode.Tile;
+        ARline.GetComponent<LineRenderer>().material = pathMaterial;
         ARline.transform.position = new Vector3(0, 0, 0);
         ARline.gameObject.layer = 11; //change to layer 11 that the AR Camera is set to see
         //
