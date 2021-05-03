@@ -432,6 +432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ARline: {fileID: 122067207706419136, guid: fc1b3ee75914ee74daad017ec14e3483, type: 3}
   pathScript: {fileID: 782961165}
+  pathMaterial: {fileID: 2100000, guid: 3416fd91e74272144b62f4cfcb40e612, type: 2}
 --- !u!1 &326917489
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,6 +903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 552176599}
   line: {fileID: 5036919747085531435, guid: 716da1871b5a30f48a4d905df080b023, type: 3}
+  pathMaterial: {fileID: 2100000, guid: 3416fd91e74272144b62f4cfcb40e612, type: 2}
 --- !u!195 &782961166
 NavMeshAgent:
   m_ObjectHideFlags: 0
