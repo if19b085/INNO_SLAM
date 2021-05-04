@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/SLAM/Scripts/QRScanner.cs.meta
-guid: 8ff22a9e6560a3949aa8f695b56d6c89
-=======
-guid: 17dee794b371dea4c9c6a7ef425d9a2f
->>>>>>> NavMeshDemo:Assets/SLAM/Scripts/ARPathRenderer.cs.meta
+guid: 0372bf546a1f65f409875d775e9efbc9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6513244862017701272}
   - component: {fileID: 5036919747085531435}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,10 +72,8 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: 0, y: -0.38333333, z: -0.14999998}
-  - {x: -1.2333336, y: -0.38333333, z: 7.8}
-  - {x: -1.3333335, y: -0.38333333, z: 7.9000006}
-  - {x: -6.79, y: -0.38333333, z: 9}
+  - {x: 0, y: -0.31666818, z: -0.15}
+  - {x: -5, y: -0.31666818, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.1
