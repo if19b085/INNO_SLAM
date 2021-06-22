@@ -1,0 +1,2350 @@
+﻿{
+  "roomDescriptions":[
+    {
+      "id": "Bro_4.18",
+      "description": "Büro",
+      "shortId": "A.4.18",
+      "building": "A"
+    },
+    {
+      "id": "Aula_A0.03",
+      "description": "Aula Bauteil A",
+      "shortId": "A0.03",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A0.03A",
+      "description": "Barbereich",
+      "shortId": "A0.03A",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A0.04",
+      "description": "Büro TLC 2",
+      "shortId": "A0.04",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A0.05",
+      "description": "Büro TLC",
+      "shortId": "A0.05",
+      "building": "A"
+    },
+    {
+      "id": "DIV_Mensa",
+      "description": "Mensa",
+      "shortId": "A0.06",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A0.07",
+      "description": "Küche",
+      "shortId": "A0.07",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A0.14",
+      "description": "Robotik-Labor 1",
+      "shortId": "A0.14",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A1.02A",
+      "description": "Aufenthaltsbereich",
+      "shortId": "A1.02A",
+      "building": "A"
+    },
+    {
+      "id": "HS_A1.04A",
+      "description": "Hörsaal",
+      "shortId": "A1.04A",
+      "building": "A"
+    },
+    {
+      "id": "HS_A1.04B",
+      "description": "Hörsaal",
+      "shortId": "A1.04B",
+      "building": "A"
+    },
+    {
+      "id": "HS_A1.05",
+      "description": "Hörsaal",
+      "shortId": "A1.05",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A1.05A",
+      "description": "HT Hörsaal",
+      "shortId": "A1.05A",
+      "building": "A"
+    },
+    {
+      "id": "UEB_A1.06",
+      "description": "Übungsraum",
+      "shortId": "A1.06",
+      "building": "A"
+    },
+    {
+      "id": "UEB_A1.07",
+      "description": "Übungsraum",
+      "shortId": "A1.07",
+      "building": "A"
+    },
+    {
+      "id": "UEB_A1.08",
+      "description": "Übungsraum",
+      "shortId": "A1.08",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A1.11",
+      "description": "Lektorenraum",
+      "shortId": "A1.11",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A1.12",
+      "description": "Elektronenmikroskopie-Labor",
+      "shortId": "A1.12",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A1.13",
+      "description": "Erste Hilfe Raum",
+      "shortId": "A1.13",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A1.15",
+      "description": "Aktenvernichtungsraum",
+      "shortId": "A1.15",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A2.01C",
+      "description": "AR",
+      "shortId": "A2.01C",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A2.03B",
+      "description": "Aufenthaltsbereich",
+      "shortId": "A2.03B",
+      "building": "A"
+    },
+    {
+      "id": "EDV_A2.06",
+      "description": "EDV-Raum",
+      "shortId": "A2.06",
+      "building": "A"
+    },
+    {
+      "id": "EDV_A2.07",
+      "description": "EDV-Raum",
+      "shortId": "A2.07",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A2.12",
+      "description": "Physik-Labor",
+      "shortId": "A2.12",
+      "building": "A"
+    },
+    {
+      "id": "SEM_A3.06",
+      "description": "Seminarraum",
+      "shortId": "A3.06",
+      "building": "A"
+    },
+    {
+      "id": "SEM_A3.07",
+      "description": "Seminarraum",
+      "shortId": "A3.07",
+      "building": "A"
+    },
+    {
+      "id": "SEM_A3.10",
+      "description": "Seminarraum",
+      "shortId": "A3.10",
+      "building": "A"
+    },
+    {
+      "id": "SEM_A3.11",
+      "description": "Seminarraum",
+      "shortId": "A3.11",
+      "building": "A"
+    },
+    {
+      "id": "HS_A3.13",
+      "description": "Hörsaal",
+      "shortId": "A3.13",
+      "building": "A"
+    },
+    {
+      "id": "HS_A3.14",
+      "description": "Hörsaal",
+      "shortId": "A3.14",
+      "building": "A"
+    },
+    {
+      "id": "HS_A3.15",
+      "description": "Hörsaal",
+      "shortId": "A3.15",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.06",
+      "description": "Küche",
+      "shortId": "A4.06",
+      "building": "A"
+    },
+    {
+      "id": "SEM_A4.08",
+      "description": "Seminarraum",
+      "shortId": "A4.08_07",
+      "building": "A"
+    },
+    {
+      "id": "DIV_A4.09",
+      "description": "Bibliothek",
+      "shortId": "A4.09",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.09A",
+      "description": "Büro",
+      "shortId": "A4.09A",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.09B",
+      "description": "Büro",
+      "shortId": "A4.09B",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A4.10",
+      "description": "Fahrsimulator-Labor",
+      "shortId": "A4.10",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A4.11",
+      "description": "Physik-Labor 2",
+      "shortId": "A4.11",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.14",
+      "description": "Büro",
+      "shortId": "A4.14",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.15",
+      "description": "Büro",
+      "shortId": "A4.15",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.16",
+      "description": "Büro",
+      "shortId": "A4.16",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.17",
+      "description": "Büro",
+      "shortId": "A4.17",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.18",
+      "description": "Büro",
+      "shortId": "A4.18",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A4.18",
+      "description": "Büro",
+      "shortId": "A4.18",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.19",
+      "description": "Fakultätsleitung",
+      "shortId": "A4.19",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.19A",
+      "description": "Büro",
+      "shortId": "A4.19A",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.20",
+      "description": "Sekretariat",
+      "shortId": "A4.20",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.21",
+      "description": "Büro",
+      "shortId": "A4.21",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.23",
+      "description": "Büro",
+      "shortId": "A4.23",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.24",
+      "description": "Sekretariat",
+      "shortId": "A4.24",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.28A",
+      "description": "AR",
+      "shortId": "A4.28A",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.30",
+      "description": "Sekretariat",
+      "shortId": "A4.30",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.32",
+      "description": "Büro",
+      "shortId": "A4.32",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.34",
+      "description": "Sekretariat",
+      "shortId": "A4.34",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A4.36",
+      "description": "Human Factors and Sports Engineering-Labor",
+      "shortId": "A4.36",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.37",
+      "description": "Serverraum",
+      "shortId": "A4.37",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.06",
+      "description": "Teeküche",
+      "shortId": "A5.06",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.07",
+      "description": "Küche",
+      "shortId": "A5.07",
+      "building": "A"
+    },
+    {
+      "id": "EDV_A5.08",
+      "description": "EDV-Raum",
+      "shortId": "A5.08",
+      "building": "A"
+    },
+    {
+      "id": "EDV_A5.09",
+      "description": "EDV-Raum (Apple)",
+      "shortId": "A5.09",
+      "building": "A"
+    },
+    {
+      "id": "EDV_A5.10",
+      "description": "EDV-Raum",
+      "shortId": "A5.10",
+      "building": "A"
+    },
+    {
+      "id": "SEM_A5.11",
+      "description": "Seminarraum",
+      "shortId": "A5.11",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.12",
+      "description": "Raum",
+      "shortId": "A5.12",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.12A",
+      "description": "Aufenthaltsbereich",
+      "shortId": "A5.12A",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.13",
+      "description": "Aufenthaltsbereich",
+      "shortId": "A5.13",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.13A",
+      "description": "Aufenthaltsbereich",
+      "shortId": "A5.13A",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.16",
+      "description": "Büro",
+      "shortId": "A5.16",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.17",
+      "description": "Büro",
+      "shortId": "A5.17",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.18",
+      "description": "Büro",
+      "shortId": "A5.18",
+      "building": "A"
+    },
+    {
+      "id": "BR_A5.19",
+      "description": "Besprechungsraum",
+      "shortId": "A5.19",
+      "building": "A"
+    },
+    {
+      "id": "_Bro_A5.20",
+      "description": "Büro",
+      "shortId": "A5.20",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.23",
+      "description": "Teeküche",
+      "shortId": "A5.23",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.23A",
+      "description": "Küche AR",
+      "shortId": "",
+      "building": ""
+    },
+    {
+      "id": "Bro_A5.24",
+      "description": "Büro",
+      "shortId": "A5.24",
+      "building": "A"
+    },
+    {
+      "id": "_Bro_A5.25",
+      "description": "Besprechungsraum",
+      "shortId": "A5.25",
+      "building": "A"
+    },
+    {
+      "id": "BR_A5.26",
+      "description": "Büro",
+      "shortId": "A5.26",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.26A",
+      "description": "Drucker",
+      "shortId": "A5.26a",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.27",
+      "description": "Büro",
+      "shortId": "A5.27",
+      "building": "A"
+    },
+    {
+      "id": "_Bro_A5.28",
+      "description": "Büro",
+      "shortId": "A5.28",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.29",
+      "description": "Besprechungsraum",
+      "shortId": "A5.29",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.30",
+      "description": "Serverraum",
+      "shortId": "A5.30",
+      "building": "A"
+    },
+    {
+      "id": "BR_A5.30",
+      "description": "Großraum",
+      "shortId": "A5.30",
+      "building": "A"
+    },
+    {
+      "id": "_Bro_A5.30",
+      "description": "Großraum",
+      "shortId": "A5.30",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.31",
+      "description": "LAN-Raum",
+      "shortId": "A5.31",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.32",
+      "description": "Großraum",
+      "shortId": "A5.32",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.33",
+      "description": "Großraum",
+      "shortId": "A5.33",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.34",
+      "description": "Großraum",
+      "shortId": "A5.34",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.35",
+      "description": "Großraum",
+      "shortId": "A5.35",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.36",
+      "description": "Großraum",
+      "shortId": "A5.36",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.37",
+      "description": "Großraum",
+      "shortId": "A5.37",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.38",
+      "description": "Großraum",
+      "shortId": "A5.38",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.39",
+      "description": "Großraum",
+      "shortId": "A5.39",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A5.40",
+      "description": "Serverraum",
+      "shortId": "A5.40",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.01",
+      "description": "Vorraum",
+      "shortId": "A6.01",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.02",
+      "description": "Vorraum",
+      "shortId": "A6.02",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.02B",
+      "description": "Technikraum",
+      "shortId": "A6.02B",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.06",
+      "description": "Küche",
+      "shortId": "A6.06",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A6.07",
+      "description": "Zytometrie-Labor",
+      "shortId": "A6.07",
+      "building": "A"
+    },
+    {
+      "id": "EDV_A6.08",
+      "description": "EDV-Raum",
+      "shortId": "A6.08",
+      "building": "A"
+    },
+    {
+      "id": "EDV_A6.09",
+      "description": "EDV-Raum",
+      "shortId": "A6.09",
+      "building": "A"
+    },
+    {
+      "id": "EDV_A6.10",
+      "description": "EDV-Raum",
+      "shortId": "A6.10",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A6.11",
+      "description": "Leerstand",
+      "shortId": "A6.11",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.12",
+      "description": "Aufenthaltsbereich",
+      "shortId": "A6.12",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.12A",
+      "description": "Aufenthaltsbereich",
+      "shortId": "A6.12A",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.13",
+      "description": "Aufenthaltsbereich",
+      "shortId": "A6.13",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.16",
+      "description": "Büro",
+      "shortId": "A6.16",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.17",
+      "description": "Büro",
+      "shortId": "A6.17",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.18",
+      "description": "Büro",
+      "shortId": "A6.18",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.19",
+      "description": "Büro",
+      "shortId": "A6.19",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.20",
+      "description": "Büro",
+      "shortId": "A6.20",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.21",
+      "description": "Büro",
+      "shortId": "A6.21",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A6.22",
+      "description": "Mikroskopie- u. Mikrofluidik Labor",
+      "shortId": "A6.22",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A6.23",
+      "description": "Ökotoxikologie-Labor",
+      "shortId": "A6.23",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.23A",
+      "description": "AR (Ökotxikologie-Lab)",
+      "shortId": "A6.23A",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A6.24",
+      "description": "Zellkulturtechnik-Labor",
+      "shortId": "A6.24",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A6.25",
+      "description": "Umweltchemie- u. Mikroanalytik Labor",
+      "shortId": "A6.25",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A6.26",
+      "description": "Tissue Engineering-Labor",
+      "shortId": "A6.26",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A6.27",
+      "description": "Chemie-Labor",
+      "shortId": "A6.27",
+      "building": "A"
+    },
+    {
+      "id": "LAB_A6.28",
+      "description": "Zellkulturtechnik-Labor",
+      "shortId": "A6.28",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A6.29",
+      "description": "Serverraum",
+      "shortId": "A6.29",
+      "building": "A"
+    },
+    {
+      "id": "LAB_AD.02",
+      "description": "Labor",
+      "shortId": "AD.02",
+      "building": "A"
+    },
+    {
+      "id": "Bro_AD.03",
+      "description": "Sterilisator",
+      "shortId": "AD.03",
+      "building": "A"
+    },
+    {
+      "id": "Bro_AD.03A",
+      "description": "Technik",
+      "shortId": "AD.03A",
+      "building": "A"
+    },
+    {
+      "id": "Bro_AD.04",
+      "description": "Technik/HT",
+      "shortId": "AD.04",
+      "building": "A"
+    },
+    {
+      "id": "Bro_AU.01",
+      "description": "Rechenzentrum",
+      "shortId": "AU.01",
+      "building": "A"
+    },
+    {
+      "id": "BR_B0.02",
+      "description": "Besprechungsraum Academy",
+      "shortId": "B0.02",
+      "building": "B"
+    },
+    {
+      "id": "BR_B0.09",
+      "description": "AR Academy",
+      "shortId": "B0.09",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B0.01",
+      "description": "Büro Academy",
+      "shortId": "B0.01",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B0.05",
+      "description": "Büro Academy",
+      "shortId": "B0.05",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B0.06",
+      "description": "Büro / Workspace",
+      "shortId": "B0.06",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B0.08",
+      "description": "Aufenthaltsbereich Academy",
+      "shortId": "B0.08",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.01",
+      "description": "Büro-Besprechung WAW",
+      "shortId": "B1.01",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.06",
+      "description": "Büro",
+      "shortId": "B1.06",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.07",
+      "description": "Büro",
+      "shortId": "B1.07",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.08",
+      "description": "Büro",
+      "shortId": "B1.08",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.09",
+      "description": "Bewegungsraum",
+      "shortId": "B1.09",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.10",
+      "description": "Büro",
+      "shortId": "B1.10",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.11",
+      "description": "Büro",
+      "shortId": "B1.11",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.12",
+      "description": "Büro WAW",
+      "shortId": "B1.12",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.13",
+      "description": "Büro",
+      "shortId": "B1.13",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.14",
+      "description": "Büro WAW",
+      "shortId": "B1.14",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.15",
+      "description": "Reinigung Küche",
+      "shortId": "B1.15",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.16",
+      "description": "Reinigung Garderobe",
+      "shortId": "B1.16",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.17",
+      "description": "Reinigung Garderobe",
+      "shortId": "B1.17",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B1.21",
+      "description": "Küche ",
+      "shortId": "B1.21",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B2.06",
+      "description": "Büro",
+      "shortId": "B2.06",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B2.07",
+      "description": "Büro",
+      "shortId": "B2.07",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B2.08",
+      "description": "HTW",
+      "shortId": "B2.08",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B2.09",
+      "description": "Serverraum",
+      "shortId": "B2.09",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B2.21",
+      "description": "AR",
+      "shortId": "B2.21",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B3.00",
+      "description": "Sozialbereich",
+      "shortId": "B3.00",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B3.01",
+      "description": "Büro",
+      "shortId": "B3.01",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B4.02",
+      "description": "Büro",
+      "shortId": "B4.02",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B4.03",
+      "description": "Büro",
+      "shortId": "B4.03",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B4.05",
+      "description": "MakerSpace",
+      "shortId": "B4.05",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B4.06",
+      "description": "AR Project Kitchen Labor",
+      "shortId": "B4.06",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B4.08",
+      "description": "Büro TWIST",
+      "shortId": "B4.08",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B4.10",
+      "description": "Küche TWIST",
+      "shortId": "B4.10",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B4.13",
+      "description": "AR",
+      "shortId": "B4.13",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B4.15",
+      "description": "Lan-Raum",
+      "shortId": "B4.15",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B5.03",
+      "description": "LAN-Raum (Computer Science)",
+      "shortId": "B5.03",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B5.05",
+      "description": "Besprechungsraum",
+      "shortId": "B5.05",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B5.07",
+      "description": "Sozialbereich",
+      "shortId": "B5.07",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B5.09",
+      "description": "Büro",
+      "shortId": "B5.09",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B5.11",
+      "description": "B5.11",
+      "shortId": "B5.11",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B6.02",
+      "description": "Bibliothek - Silent Room",
+      "shortId": "B6.02",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B6.03",
+      "description": "Büro",
+      "shortId": "B6.03",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B6.04",
+      "description": "Büro",
+      "shortId": "B6.04",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B6.05",
+      "description": "Sozialbereich",
+      "shortId": "B6.05",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B6.06",
+      "description": "WorkSpace",
+      "shortId": "B6.06",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B6.07",
+      "description": "Büro",
+      "shortId": "B6.07",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B6.08",
+      "description": "Büro",
+      "shortId": "B6.08",
+      "building": "B"
+    },
+    {
+      "id": "Bro_BU.02",
+      "description": "Medienausstattung",
+      "shortId": "BU.02",
+      "building": "B"
+    },
+    {
+      "id": "Bro_BU.10",
+      "description": "Archiv",
+      "shortId": "BU.10",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B3.04",
+      "description": "Medical Devices and Cardiopulmonary Simulation",
+      "shortId": "B3.04",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B3.05",
+      "description": "ICU",
+      "shortId": "B3.05",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B3.06",
+      "description": "Health&Care Data Center",
+      "shortId": "B3.06",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B3.07",
+      "description": "Applied Optics & Simulation",
+      "shortId": "B3.07",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B3.08",
+      "description": "Rehabilitation & Gait Analysis",
+      "shortId": "B3.08",
+      "building": "B"
+    },
+    {
+      "id": "_LAB_B3.08A",
+      "description": "Posturography & Biomechanics",
+      "shortId": "B3.08A",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B3.09",
+      "description": "Prototyping",
+      "shortId": "B3.09",
+      "building": "B"
+    },
+    {
+      "id": "Bro_B3.10",
+      "description": "Garderobe",
+      "shortId": "B3.10",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B4.01",
+      "description": "IoT-Labor (Internet of Things)",
+      "shortId": "B4.01",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B4.04",
+      "description": "Project Kitchen Labor",
+      "shortId": "B4.04",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B4.12",
+      "description": "Embedded ArtLab (Smart Living Labor-Whg)",
+      "shortId": "B4.12",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B5.01",
+      "description": "Game Engineering Labor (GameLab)",
+      "shortId": "B5.01",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B5.04",
+      "description": "Security Lab",
+      "shortId": "B5.04",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B5.06",
+      "description": "User Experience Lab (Usab.Lab)",
+      "shortId": "B5.06",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B5.08",
+      "description": "Presentation Lab",
+      "shortId": "B5.08",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B5.09",
+      "description": "Robocup Junior Lab",
+      "shortId": "B5.09",
+      "building": "B"
+    },
+    {
+      "id": "LAB_B5.11",
+      "description": "User Experience Lab (Usab.Lab)",
+      "shortId": "B5.11",
+      "building": "B"
+    },
+    {
+      "id": "SEB_B4.11",
+      "description": "Seminarbereich/Werkstatt",
+      "shortId": "B4.11",
+      "building": "B"
+    },
+    {
+      "id": "SEM_B0.03",
+      "description": "Seminarraum Academy",
+      "shortId": "B0.03",
+      "building": "B"
+    },
+    {
+      "id": "SEM_B0.04",
+      "description": "Seminarraum Academy",
+      "shortId": "B0.04",
+      "building": "B"
+    },
+    {
+      "id": "SEM_B0.07",
+      "description": "Seminarraum Academy",
+      "shortId": "B0.07",
+      "building": "B"
+    },
+    {
+      "id": "SEM_B2.03",
+      "description": "Seminarraum",
+      "shortId": "B2.03",
+      "building": "B"
+    },
+    {
+      "id": "SEM_B2.04",
+      "description": "Seminarraum",
+      "shortId": "B2.04",
+      "building": "B"
+    },
+    {
+      "id": "SEM_B2.05",
+      "description": "Seminarraum",
+      "shortId": "B2.05",
+      "building": "B"
+    },
+    {
+      "id": "SEM_B6.01",
+      "description": "Seminarraum",
+      "shortId": "B6.01",
+      "building": "B"
+    },
+    {
+      "id": "UEB_B2.01",
+      "description": "Übungsraum",
+      "shortId": "B2.01",
+      "building": "B"
+    },
+    {
+      "id": "UEB_B2.02",
+      "description": "Übungsraum",
+      "shortId": "B2.02",
+      "building": "B"
+    },
+    {
+      "id": "Bro_C0.01",
+      "description": "Serverraum",
+      "shortId": "C0.01",
+      "building": "C"
+    },
+    {
+      "id": "Bro_C1.05",
+      "description": "Büro",
+      "shortId": "C1.05",
+      "building": "C"
+    },
+    {
+      "id": "Bro_C1.05A",
+      "description": "Büro",
+      "shortId": "C1.05A",
+      "building": "C"
+    },
+    {
+      "id": "Bro_C1.10",
+      "description": "Büro",
+      "shortId": "C1.10",
+      "building": "C"
+    },
+    {
+      "id": "Bro_C1.12",
+      "description": "Küche",
+      "shortId": "C1.12",
+      "building": "C"
+    },
+    {
+      "id": "Bro_CU.08",
+      "description": "Haustechnik",
+      "shortId": "CU.08",
+      "building": "C"
+    },
+    {
+      "id": "LAB_C1.01",
+      "description": "Sports Engineering u. Biomechanics-Labor",
+      "shortId": "C1.01",
+      "building": "C"
+    },
+    {
+      "id": "LAB_C1.02",
+      "description": "Sports Engineering u. Biomechanics-Labor",
+      "shortId": "C1.02",
+      "building": "C"
+    },
+    {
+      "id": "LAB_C1.03",
+      "description": "Sports Technology-Labor",
+      "shortId": "C1.03",
+      "building": "C"
+    },
+    {
+      "id": "LAB_C1.04",
+      "description": "Sports Technology-Labor",
+      "shortId": "C1.04",
+      "building": "C"
+    },
+    {
+      "id": "LAB_C1.07",
+      "description": "Mobile Roboter-Labor",
+      "shortId": "C1.07",
+      "building": "C"
+    },
+    {
+      "id": "_LAB_C1.08",
+      "description": "Sensorik-Labor",
+      "shortId": "C1.08",
+      "building": "C"
+    },
+    {
+      "id": "LAB_C1.08",
+      "description": "Projektlabor DigFab",
+      "shortId": "C1.08",
+      "building": "C"
+    },
+    {
+      "id": "LAB_C1.09",
+      "description": "Robotik-Simulationslabor",
+      "shortId": "C1.09",
+      "building": "C"
+    },
+    {
+      "id": "LAB_C1.11",
+      "description": "Projektlabor Automatisierungstechnik",
+      "shortId": "C1.11",
+      "building": "C"
+    },
+    {
+      "id": "LAB_CU.01",
+      "description": "ViTeRo Vienna Technic Robotics-Labor",
+      "shortId": "CU.01",
+      "building": "C"
+    },
+    {
+      "id": "LAB_CU.02",
+      "description": "ViTeRo Vienna Technic Robotics-Labor",
+      "shortId": "CU.02",
+      "building": "C"
+    },
+    {
+      "id": "LAB_CU.03",
+      "description": "Werkstatt",
+      "shortId": "CU.03",
+      "building": "C"
+    },
+    {
+      "id": "LAB_CU.04",
+      "description": "Schweisstechnisches Labor",
+      "shortId": "CU.04",
+      "building": "C"
+    },
+    {
+      "id": "BR_E0.20",
+      "description": "Besprechnungsraum ENERGYbase",
+      "shortId": "E0.20",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E0.01",
+      "description": "Büro ENERGYbase Stg.Leiter",
+      "shortId": "E0.01",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E0.02",
+      "description": "Büro ENERGYbase Stg. Assistenz",
+      "shortId": "E0.02",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E0.07",
+      "description": "Serverraum",
+      "shortId": "E0.07",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E0.13",
+      "description": "Institutsbüro ENERGYbase",
+      "shortId": "E0.13",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E0.16",
+      "description": "Aufenthaltsbereich",
+      "shortId": "E0.16",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E0.17",
+      "description": "Büro ",
+      "shortId": "E0.17",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E0.19",
+      "description": "Lektorenraum",
+      "shortId": "E0.19",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E0.22",
+      "description": "Büro",
+      "shortId": "E0.22",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E1.08",
+      "description": "Reinigung Garderobe",
+      "shortId": "E1.08",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E1.09",
+      "description": "Serverraum",
+      "shortId": "E1.09",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E1.10",
+      "description": "Büro",
+      "shortId": "E1.10",
+      "building": "E"
+    },
+    {
+      "id": "Bro_E1.11",
+      "description": "Küche",
+      "shortId": "E1.11",
+      "building": "E"
+    },
+    {
+      "id": "DIV_E0.03",
+      "description": "Bibliothek ENERGYbase",
+      "shortId": "E0.03",
+      "building": "E"
+    },
+    {
+      "id": "EDV_E0.11",
+      "description": "EDV-Raum",
+      "shortId": "E0.11",
+      "building": "E"
+    },
+    {
+      "id": "EDV_E0.12",
+      "description": "EDV-Raum",
+      "shortId": "E0.12",
+      "building": "E"
+    },
+    {
+      "id": "EDV_E1.03",
+      "description": "EDV-Raum",
+      "shortId": "E1.03",
+      "building": "E"
+    },
+    {
+      "id": "EDV_E1.05",
+      "description": "EDV-Raum",
+      "shortId": "E1.05",
+      "building": "E"
+    },
+    {
+      "id": "EDV_E1.07",
+      "description": "EDV-Raum",
+      "shortId": "E1.07",
+      "building": "E"
+    },
+    {
+      "id": "HS_E0.14",
+      "description": "Übungsraum",
+      "shortId": "E0.14",
+      "building": "E"
+    },
+    {
+      "id": "HS_E0.15",
+      "description": "Übungsraum",
+      "shortId": "E0.15",
+      "building": "E"
+    },
+    {
+      "id": "HS_E0.24TB",
+      "description": "Hörsaal",
+      "shortId": "E0.24",
+      "building": "E"
+    },
+    {
+      "id": "HS_E1.04",
+      "description": "Hörsaal",
+      "shortId": "E1.04",
+      "building": "E"
+    },
+    {
+      "id": "HS_E1.07",
+      "description": "Hörsaal",
+      "shortId": "E1.07",
+      "building": "E"
+    },
+    {
+      "id": "LAB_E0.23A",
+      "description": "Erneuerbare Energie-Labor ",
+      "shortId": "E0.23A",
+      "building": "E"
+    },
+    {
+      "id": "LAB_E0.23B",
+      "description": "Erneuerbare Energie-Labor",
+      "shortId": "E0.23B",
+      "building": "E"
+    },
+    {
+      "id": "SEM_E0.04",
+      "description": "Seminarraum",
+      "shortId": "E0.04",
+      "building": "E"
+    },
+    {
+      "id": "SEM_E1.01",
+      "description": "Seminarraum",
+      "shortId": "E1.01",
+      "building": "E"
+    },
+    {
+      "id": "SEM_E1.02",
+      "description": "Seminarraum",
+      "shortId": "E1.02",
+      "building": "E"
+    },
+    {
+      "id": "BR_F3.08",
+      "description": "Besprechungsraum",
+      "shortId": "F3.08",
+      "building": "F"
+    },
+    {
+      "id": "BR_F5.28",
+      "description": "Besprechungsraum",
+      "shortId": "F5.28",
+      "building": "F"
+    },
+    {
+      "id": "BR_F6.20",
+      "description": "Besprechungsraum",
+      "shortId": "F6.20",
+      "building": "F"
+    },
+    {
+      "id": "BR_F7.04",
+      "description": "Konferenzraum",
+      "shortId": "F7.04",
+      "building": "F"
+    },
+    {
+      "id": "BR_F7.35",
+      "description": "Besprechungsraum",
+      "shortId": "F7.35",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F0.01.1",
+      "description": "Medientechnik",
+      "shortId": "F0.01.1",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F0.03",
+      "description": "Beschaffung",
+      "shortId": "F0.03",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F0.05.0",
+      "description": "Portier",
+      "shortId": "F0.05.0",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F0.20",
+      "description": "Infocenter EG",
+      "shortId": "F0.20",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F0.78",
+      "description": "Technikraum - Druckbelüftung",
+      "shortId": "F0.78",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F1.04",
+      "description": "Lan Raum",
+      "shortId": "F1.04",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F1.06",
+      "description": "Studierraum",
+      "shortId": "F1.06",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F1.20",
+      "description": "Infocenter OG",
+      "shortId": "F1.20",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F1.90",
+      "description": "Terrasse",
+      "shortId": "F1.90",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F2.04",
+      "description": "Studierraum",
+      "shortId": "F2.04",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F2.78",
+      "description": "Lan Raum",
+      "shortId": "F2.78",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F3.01",
+      "description": "Büro",
+      "shortId": "F3.01",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F3.02",
+      "description": "Büro",
+      "shortId": "F3.02",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F3.03",
+      "description": "Büro",
+      "shortId": "F3.03",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F3.04",
+      "description": "Büro",
+      "shortId": "F3.04",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F3.06",
+      "description": "Büro",
+      "shortId": "F3.06",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F3.07",
+      "description": "Büro",
+      "shortId": "F3.07",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F3.09",
+      "description": "Küche",
+      "shortId": "F3.09",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F3.10",
+      "description": "Büro",
+      "shortId": "F3.10",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F3.78",
+      "description": "Lan Raum",
+      "shortId": "F3.78",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F4.05",
+      "description": "Studierraum",
+      "shortId": "F4.05",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F4.62.1",
+      "description": "Lesezone",
+      "shortId": "F4.62.1",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F4.78",
+      "description": "Lan Raum",
+      "shortId": "F4.78",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.06",
+      "description": "EDA2-Labor",
+      "shortId": "F5.06",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.07",
+      "description": "Büro",
+      "shortId": "F5.07",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.20",
+      "description": "Büro",
+      "shortId": "F5.20",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.21",
+      "description": "Büro",
+      "shortId": "F5.21",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.22",
+      "description": "Büro",
+      "shortId": "F5.22",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.23",
+      "description": "Büro",
+      "shortId": "F5.23",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.24",
+      "description": "Büro",
+      "shortId": "F5.24",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.26",
+      "description": "Büro",
+      "shortId": "F5.26",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.27",
+      "description": "Büro",
+      "shortId": "F5.27",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.27a",
+      "description": "Büro",
+      "shortId": "F5.27a",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.30",
+      "description": "Büro",
+      "shortId": "F5.30",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.32",
+      "description": "Büro",
+      "shortId": "F5.32",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.33",
+      "description": "Büro",
+      "shortId": "F5.33",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.34",
+      "description": "Büro",
+      "shortId": "F5.34",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.35",
+      "description": "Büro",
+      "shortId": "F5.35",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.36",
+      "description": "Teeküche",
+      "shortId": "F5.36",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F5.78",
+      "description": "Lan Raum",
+      "shortId": "F5.78",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.02",
+      "description": "Büro",
+      "shortId": "F6.02",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.03",
+      "description": "Büro",
+      "shortId": "F6.03",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.04",
+      "description": "Büro",
+      "shortId": "F6.04",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.05",
+      "description": "Büro",
+      "shortId": "F6.05",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.06",
+      "description": "Büro",
+      "shortId": "F6.06",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.07",
+      "description": "Büro",
+      "shortId": "F6.07",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.08",
+      "description": "Büro",
+      "shortId": "F6.08",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.09",
+      "description": "Büro",
+      "shortId": "F6.09",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.10",
+      "description": "Büro",
+      "shortId": "F6.10",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.11",
+      "description": "Büro",
+      "shortId": "F6.11",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.21",
+      "description": "Büro",
+      "shortId": "F6.21",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.22",
+      "description": "Büro",
+      "shortId": "F6.22",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.23",
+      "description": "Büro",
+      "shortId": "F6.23",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.24",
+      "description": "Büro",
+      "shortId": "F6.24",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.26.1",
+      "description": "Büro",
+      "shortId": "F6.26.1",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.28",
+      "description": "Büro",
+      "shortId": "F6.28",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.29",
+      "description": "Büro",
+      "shortId": "F6.29",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.30",
+      "description": "Büro",
+      "shortId": "F6.30",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.31",
+      "description": "Büro",
+      "shortId": "F6.31",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.32",
+      "description": "Teeküche",
+      "shortId": "F6.32",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F6.78",
+      "description": "Lan Raum",
+      "shortId": "F6.78",
+      "building": "F"
+    },
+    {
+      "id": "Bro_A4.22",
+      "description": "Studiengangsleitung",
+      "shortId": "A4.22",
+      "building": "A"
+    },
+    {
+      "id": "Bro_F7.01",
+      "description": "Büro",
+      "shortId": "F7.01",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.02",
+      "description": "Rektorat - Sekretariat",
+      "shortId": "F7.02",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.03",
+      "description": "Büro",
+      "shortId": "F7.03",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.20",
+      "description": "Büro",
+      "shortId": "F7.20",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.21",
+      "description": "Büro",
+      "shortId": "F7.21",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.22",
+      "description": "Büro",
+      "shortId": "F7.22",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.23",
+      "description": "Büro",
+      "shortId": "F7.23",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.24",
+      "description": "Büro",
+      "shortId": "F7.24",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.25",
+      "description": "Büro",
+      "shortId": "F7.25",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.26",
+      "description": "Büro",
+      "shortId": "F7.26",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.27",
+      "description": "Büro",
+      "shortId": "F7.27",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.28",
+      "description": "Büro",
+      "shortId": "F7.28",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.29",
+      "description": "Büro",
+      "shortId": "F7.29",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.30",
+      "description": "Büro",
+      "shortId": "F7.30",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.31",
+      "description": "Teeküche",
+      "shortId": "F7.31",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.32",
+      "description": "Kantine Academy",
+      "shortId": "F7.32",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.36",
+      "description": "Büro",
+      "shortId": "F7.36",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.37",
+      "description": "Büro",
+      "shortId": "F7.37",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.38",
+      "description": "Forschungs- und Hochschulorganisation",
+      "shortId": "F7.38",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.39",
+      "description": "Teeküche",
+      "shortId": "F7.39",
+      "building": "F"
+    },
+    {
+      "id": "Bro_A4.28",
+      "description": "Studiengangsleitung",
+      "shortId": "A4.28",
+      "building": "A"
+    },
+    {
+      "id": "Bro_A4.29",
+      "description": "Studiengangsleitung",
+      "shortId": "A4.29",
+      "building": "A"
+    },
+    {
+      "id": "Bro_F7.72.1",
+      "description": "Gard./Teeküche",
+      "shortId": "F7.72.1",
+      "building": "F"
+    },
+    {
+      "id": "Bro_A4.31",
+      "description": "Studiengangsleitung",
+      "shortId": "A4.31",
+      "building": "A"
+    },
+    {
+      "id": "Bro_F7.78",
+      "description": "Lan Raum",
+      "shortId": "F7.78",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.90",
+      "description": "Terrasse Konferenzraum Süd",
+      "shortId": "F7.90",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.91",
+      "description": "Terrasse Konferenzraum Nord",
+      "shortId": "F7.91",
+      "building": "F"
+    },
+    {
+      "id": "Bro_F7.93",
+      "description": "Terrasse Kantina Süd",
+      "shortId": "F7.93",
+      "building": "F"
+    },
+    {
+      "id": "Bro_FU.02",
+      "description": "Rechenzentrum",
+      "shortId": "FU.02",
+      "building": "F"
+    },
+    {
+      "id": "Bro_A4.33",
+      "description": "Studiengangsleitung",
+      "shortId": "A4.33",
+      "building": "A"
+    },
+    {
+      "id": "EDV_F1.01",
+      "description": "EDV-Raum",
+      "shortId": "F1.01",
+      "building": "F"
+    },
+    {
+      "id": "EDV_F1.02",
+      "description": "EDV-Raum",
+      "shortId": "F1.02",
+      "building": "F"
+    },
+    {
+      "id": "EDV_F1.03",
+      "description": "EDV-Raum",
+      "shortId": "F1.03",
+      "building": "F"
+    },
+    {
+      "id": "EDV_F2.02",
+      "description": "EDV-Raum",
+      "shortId": "F2.02",
+      "building": "F"
+    },
+    {
+      "id": "EDV_F4.23",
+      "description": "EDV-Raum/EDV-ES",
+      "shortId": "F4.23",
+      "building": "F"
+    },
+    {
+      "id": "EDV_F4.24",
+      "description": "EDV-Raum/EDV-ES",
+      "shortId": "F4.24",
+      "building": "F"
+    },
+    {
+      "id": "EDV_F4.25",
+      "description": "EDV-Raum/EDV-ES",
+      "shortId": "F4.25",
+      "building": "F"
+    },
+    {
+      "id": "EDV_F4.26",
+      "description": "EDV-Raum/EDV-ES",
+      "shortId": "F4.26",
+      "building": "F"
+    },
+    {
+      "id": "EDV_F7.27",
+      "description": "EDV-Raum Academy",
+      "shortId": "F7.27",
+      "building": "F"
+    },
+    {
+      "id": "HS_F0.01",
+      "description": "Festsaal",
+      "shortId": "F0.01",
+      "building": "F"
+    },
+    {
+      "id": "HS_F0.02",
+      "description": "Hörsaal",
+      "shortId": "F0.02",
+      "building": "F"
+    },
+    {
+      "id": "HS_F2.01",
+      "description": "Hörsaal",
+      "shortId": "F2.01",
+      "building": "F"
+    },
+    {
+      "id": "HS_F2.03",
+      "description": "Hörsaal",
+      "shortId": "F2.03",
+      "building": "F"
+    },
+    {
+      "id": "HS_F4.01",
+      "description": "Übungsraum/Laptop Raum",
+      "shortId": "F4.01",
+      "building": "F"
+    },
+    {
+      "id": "HS_F4.02",
+      "description": "Übungsraum/Laptop Raum",
+      "shortId": "F4.02",
+      "building": "F"
+    },
+    {
+      "id": "HS_F4.03",
+      "description": "Übungsraum",
+      "shortId": "F4.03",
+      "building": "F"
+    },
+    {
+      "id": "HS_F4.06",
+      "description": "Übungsraum",
+      "shortId": "F4.06",
+      "building": "F"
+    },
+    {
+      "id": "HS_F4.07",
+      "description": "Übungsraum",
+      "shortId": "F4.07",
+      "building": "F"
+    },
+    {
+      "id": "HS_F4.08",
+      "description": "Übungsraum",
+      "shortId": "F4.08",
+      "building": "F"
+    },
+    {
+      "id": "HS_F4.22",
+      "description": "Übungsraum",
+      "shortId": "F4.22",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F2.20",
+      "description": "E Learning Lab",
+      "shortId": "F2.20",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F5.01",
+      "description": "Sensorik Labor 1",
+      "shortId": "F5.01",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F5.02",
+      "description": "Sensorik Labor 2",
+      "shortId": "F5.02",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F5.12",
+      "description": "EDV-Raum",
+      "shortId": "F5.12",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F5.25",
+      "description": "Generatives Fertigungstechnik Labor",
+      "shortId": "F5.25",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F5.29",
+      "description": "Automatisierungstechnik-Labor",
+      "shortId": "F5.29",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F5.31",
+      "description": "Automatisierungstechnik-Labor 2 (Pneumatik-Lab)",
+      "shortId": "F5.31",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F6.01",
+      "description": "Embedded Systems-Labor",
+      "shortId": "F6.01",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F6.12",
+      "description": "Electronic Based Systems Labor (EDA1-Labor)",
+      "shortId": "F6.12",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F6.25",
+      "description": "Telekom-Labor",
+      "shortId": "F6.25",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F6.26",
+      "description": "Elektronik-Labor (Grundlagenlabor)",
+      "shortId": "F6.26",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F6.26.2",
+      "description": "Audio-Video Labor",
+      "shortId": "F6.26.2",
+      "building": "F"
+    },
+    {
+      "id": "LAB_F6.27",
+      "description": "Industrielle Elektronik-Labor",
+      "shortId": "F6.27",
+      "building": "F"
+    },
+    {
+      "id": "LAB_FU.07",
+      "description": "Entwicklungs- und Prüflabor SEB",
+      "shortId": "FU.07",
+      "building": "F"
+    },
+    {
+      "id": "LAB_FU.08",
+      "description": "EE-Werkstätte",
+      "shortId": "FU.08",
+      "building": "F"
+    },
+    {
+      "id": "SEM_F4.04",
+      "description": "Seminarraum",
+      "shortId": "F4.04",
+      "building": "F"
+    },
+    {
+      "id": "SEM_F4.20",
+      "description": "Seminarraum",
+      "shortId": "F4.20",
+      "building": "F"
+    },
+    {
+      "id": "SEM_F4.27",
+      "description": "Seminarraum",
+      "shortId": "F4.27",
+      "building": "F"
+    },
+    {
+      "id": "SEM_F5.03",
+      "description": "Seminarraum",
+      "shortId": "F5.03",
+      "building": "F"
+    },
+    {
+      "id": "SEM_F5.10",
+      "description": "Seminarraum",
+      "shortId": "F5.10",
+      "building": "F"
+    },
+    {
+      "id": "SEM_F5.11",
+      "description": "Seminarraum",
+      "shortId": "F5.11",
+      "building": "F"
+    },
+    {
+      "id": "SEM_F7.33",
+      "description": "Seminarraum Academy",
+      "shortId": "F7.33",
+      "building": "F"
+    },
+    {
+      "id": "SEM_F7.34",
+      "description": "Seminarraum Academy",
+      "shortId": "F7.34",
+      "building": "F"
+    },
+    {
+      "id": "EXT_TGM-LAB",
+      "description": "Labor TGM",
+      "shortId": "TGM  ",
+      "building": ""
+    }
+  ]
+}
