@@ -4,6 +4,6 @@ using UnityEngine;
 
 public static class TargetPossition
 {
-    public static List<float> possition = new List<float> { -5f, 0f };
+    public static List<float> possition = new List<float> { -6.5f, 5.5f };
 
 }
