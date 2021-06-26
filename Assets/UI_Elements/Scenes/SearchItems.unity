@@ -665,6 +665,12 @@ PrefabInstance:
       propertyPath: Content
       value: 
       objectReference: {fileID: 273977109}
+    - target: {fileID: 557621030172397833, guid: 054f6076838ffc74f8cddc1630d929b7,
+        type: 3}
+      propertyPath: ListElementPrefab
+      value: 
+      objectReference: {fileID: 2995540685192199678, guid: f8566bb4716ec8b438f74bfbf5f0f184,
+        type: 3}
     - target: {fileID: 557621030172397839, guid: 054f6076838ffc74f8cddc1630d929b7,
         type: 3}
       propertyPath: m_Name
@@ -822,6 +828,11 @@ PrefabInstance:
     - target: {fileID: 3358717212175391876, guid: 73fe10256d09e054c9cf83d75afd1bb0,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3358717212175391876, guid: 73fe10256d09e054c9cf83d75afd1bb0,
+        type: 3}
+      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3358717212334324269, guid: 73fe10256d09e054c9cf83d75afd1bb0,
