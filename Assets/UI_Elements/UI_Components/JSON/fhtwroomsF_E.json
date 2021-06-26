@@ -1,0 +1,46 @@
+{
+  "roomDescriptions": [
+    {
+      "id": "HS_F0.01",
+      "description": "Festsaal",
+      "shortId": "F0.01",
+      "building": "F",
+      "x": -25.7,
+      "z":2 
+    },
+    {
+      "id": "HS_F0.02",
+      "description": "Hörsaal",
+      "shortId": "F0.02",
+      "building": "F",
+      "x": -21.7,
+      "z": 2
+    },
+    {
+      "id": "HS_F0.03",
+      "description": "Aufzug Erdgeschoss",
+      "shortId": "F0.03",
+      "building": "F",
+      "x": -9,
+      "z": 13
+    },
+    {
+      "id": "HS_F0.04",
+      "description": "Toilette Erdgeschoss",
+      "shortId": "F0.04",
+      "building": "F",
+      "x": -53,
+      "z": 9
+    },
+    {
+      "id": "HS_F0.5",
+      "description": "Rezeption",
+      "shortId": "F0.05",
+      "building": "F",
+      "x": -4,
+      "z": 0
+    }
+
+  ]
+}
+
