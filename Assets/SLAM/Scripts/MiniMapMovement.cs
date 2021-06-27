@@ -15,10 +15,10 @@ public class MiniMapMovement : MonoBehaviour
         // Enable ARCore to target 60fps camera capture frame rate on supported devices.
         // Note, Application.targetFrameRate is ignored when QualitySettings.vSyncCount != 0.
         Application.targetFrameRate = 60;
-        FirstPersonCamera.transform.position = new Vector3(SceneDataHandler.myData.startX, 1.17f, SceneDataHandler.myData.startZ);
-        CameraTarget.transform.position = new Vector3(SceneDataHandler.myData.startX, 0, SceneDataHandler.myData.startZ);
-        //FirstPersonCamera.transform.position = new Vector3(-5, 1.17f, 0);
-        //CameraTarget.transform.position = new Vector3(-5, 0, 0);
+        //FirstPersonCamera.transform.position = new Vector3(SceneDataHandler.myData.startX, 1.17f, SceneDataHandler.myData.startZ);
+        //CameraTarget.transform.position = new Vector3(SceneDataHandler.myData.startX, 0, SceneDataHandler.myData.startZ);
+        FirstPersonCamera.transform.position = new Vector3(-5, 1.17f, 0);
+        CameraTarget.transform.position = new Vector3(-5, 0, 0);
     }
 
     void Start()
