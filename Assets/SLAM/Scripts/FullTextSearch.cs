@@ -55,7 +55,7 @@ public class FullTextSearch : MonoBehaviour
 
     public void JsonParse()
     {
-        string jsonString = File.ReadAllText("Assets/UI_Elements/UI_Components/JSON/fhtwroomsF_E.json");
+        string jsonString = File.ReadAllText("Assets/SLAM/JSON/fhtwroomsF_E.json");
         JObject data = JObject.Parse(jsonString);
         string roomArray = data["roomDescriptions"].ToString();
         JArray jArray = JArray.Parse(roomArray);

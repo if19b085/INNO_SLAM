@@ -724,11 +724,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552176595}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.54, y: 0, z: 4.96}
+  m_LocalPosition: {x: -19.44, y: 0, z: 0.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -933,10 +933,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 552176599}
-  line: {fileID: 5036919747085531435, guid: 716da1871b5a30f48a4d905df080b023, type: 3}
   pathMaterial: {fileID: 2100000, guid: 3416fd91e74272144b62f4cfcb40e612, type: 2}
-  punkt: {fileID: -927199367670048503, guid: 4a1142b17f64bbc40871f76529421f77, type: 3}
-  hinlegerVektor: {x: 0, y: 0, z: 0}
+  punkt: {fileID: 100000, guid: aa56074584965524093e852b02a99de7, type: 3}
+  tPunkt: {fileID: 400000, guid: aa56074584965524093e852b02a99de7, type: 3}
 --- !u!195 &782961166
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1103,7 +1102,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0d3acbf717d21ee4bb040451ee979ce5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d3acbf717d21ee4bb040451ee979ce5,
         type: 3}

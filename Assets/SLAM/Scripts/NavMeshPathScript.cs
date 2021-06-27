@@ -71,7 +71,7 @@ public class NavMeshPathScript : MonoBehaviour
             {
                 hinlegvektor.x = hinlegvektor.x + normalvektor.x;
                 hinlegvektor.z = hinlegvektor.z + normalvektor.y;
-
+                punkt.layer = 11;
                 Instantiate(punkt, hinlegvektor, tPunkt.rotation);
             }
 
