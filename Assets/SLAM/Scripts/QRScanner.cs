@@ -36,8 +36,16 @@ public class QRScanner : MonoBehaviour
                     QrCode = Result.Text;
                     if (!string.IsNullOrEmpty(QrCode))
                     {
-                        Debug.Log("DECODED TEXT FROM QR: " + QrCode);
-                        break;
+                        if (!string.IsNullOrEmpty(QrCode))
+                        {
+                            string[] xAndZ = QrCode.Split('/');
+                            float x = float.Parse(xAndZ[0]);
+                            float z = float.Parse(xAndZ[1]);
+                            SceneDataHandler.myData.startX = x;
+                            SceneDataHandler.myData.startZ = z;
+                            Application.LoadLevel("IndoorNavigation");
+                            break;
+                        }
                     }
                 }
             }
@@ -47,5 +55,5 @@ public class QRScanner : MonoBehaviour
         webcamTexture.Stop();
     }
 
-    
+
 }

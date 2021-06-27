@@ -29,15 +29,15 @@ public class FullTextSearch : MonoBehaviour
         input = gameObject.GetComponent<InputField>();
         input.onValueChanged.AddListener(delegate { SubmitName(); });
     }
-     
+
     public void SubmitName()
     {
-        
+
         foreach (Transform child in Content.transform)
         {
             GameObject.Destroy(child.gameObject);
         }
-       
+
         Search_Term = input.text;
 
 
@@ -59,7 +59,7 @@ public class FullTextSearch : MonoBehaviour
         JObject data = JObject.Parse(jsonString);
         string roomArray = data["roomDescriptions"].ToString();
         JArray jArray = JArray.Parse(roomArray);
-        foreach(JObject jObject in jArray)
+        foreach (JObject jObject in jArray)
         {
             roomy = new Room();
             roomy.id = jObject["id"].ToString();
@@ -70,13 +70,13 @@ public class FullTextSearch : MonoBehaviour
         }
     }
 
-    
- }
 
-public class Room
+}
+
+/*public class Room
 {
     public string id { get; set; }
     public string description { get; set; }
     public string shortId { get; set; }
     public string building { get; set; }
-}
+}*/
