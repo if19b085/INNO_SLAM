@@ -46,4 +46,6 @@ public class QRScanner : MonoBehaviour
         }
         webcamTexture.Stop();
     }
+
+    
 }
