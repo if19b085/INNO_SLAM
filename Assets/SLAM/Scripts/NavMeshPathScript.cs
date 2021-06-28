@@ -19,8 +19,8 @@ public class NavMeshPathScript : MonoBehaviour
         //line.GetComponent<LineRenderer>().material = pathMaterial;
         //line.gameObject.layer = 11;
 
-        //target.transform.position = new Vector3(SceneDataHandler.myData.roomX, 0, SceneDataHandler.myData.roomZ);
-        target.transform.position = new Vector3(-20, 0, 0);
+        target.transform.position = new Vector3(SceneDataHandler.myData.roomX, 0, SceneDataHandler.myData.roomZ);
+        //target.transform.position = new Vector3(-10, 0, 13.5f);
 
         this.path = new NavMeshPath();
         elapsed = 0.0f;

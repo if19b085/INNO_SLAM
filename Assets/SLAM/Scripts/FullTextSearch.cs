@@ -14,7 +14,7 @@ public class FullTextSearch : MonoBehaviour
     public GameObject ListElementPrefab;
     public GameObject Content;
     public string Search_Term;
-    private List<Room> roomList = new List<Room>();
+    public static List<Room> roomList = new List<Room>();
     List<Room> displayList;
     private Room roomy;
     private InputField input;
@@ -66,6 +66,8 @@ public class FullTextSearch : MonoBehaviour
             roomy.description = jObject["description"].ToString();
             roomy.shortId = jObject["shortId"].ToString();
             roomy.building = jObject["building"].ToString();
+            roomy.xCoordinate = float.Parse(jObject["x"].ToString());
+            roomy.zCoordinate = float.Parse(jObject["z"].ToString());
             roomList.Add(roomy);
         }
     }

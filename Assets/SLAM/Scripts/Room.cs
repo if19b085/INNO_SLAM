@@ -10,4 +10,7 @@ public class Room
     public string shortId { get; set; }
     public string building { get; set; }
 
+    public float xCoordinate { get; set; }
+    public float zCoordinate { get; set; }
+
 }
