@@ -132,8 +132,8 @@ EditorBuildSettings:
     path: Assets/SLAM/Scenes/Menu.unity
     guid: 987d5b02b0776b54c8af2db0af3003e5
   - enabled: 1
-    path: Assets/SLAM/Scenes/IndoorNavigation.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/SLAM/Scenes/SearchItems.unity
+    guid: 619e5c6646a32014196700bd76411299
   - enabled: 0
     path: Assets/SLAM/Scenes/QRScan.unity
     guid: 575364674b5d0c848ad0456990dc19c1
@@ -144,8 +144,8 @@ EditorBuildSettings:
     path: Assets/SLAM/Scenes/QRCodeScanner.unity
     guid: d9b008c806c228b45a955b0a1eb98ef7
   - enabled: 1
-    path: Assets/SLAM/Scenes/SearchItems.unity
-    guid: 619e5c6646a32014196700bd76411299
+    path: Assets/SLAM/Scenes/IndoorNavigation.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f8ce26fe3bc69499b9be4b2378e97a94,
       type: 2}

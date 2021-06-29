@@ -65,7 +65,7 @@ public class NavMeshPathScript : MonoBehaviour
             pathvektor.x = path.corners[i + 1].x - path.corners[i].x;
             pathvektor.y = path.corners[i + 1].z - path.corners[i].z;
 
-            Vector3 hinlegvektor = new Vector3(path.corners[i].x, path.corners[i].y + 0.5f, path.corners[i].z);
+            Vector3 hinlegvektor = new Vector3(path.corners[i].x, path.corners[i].y + 0.2f, path.corners[i].z);
 
             normalvektor = pathvektor.normalized;
             double length = pathvektor.magnitude;

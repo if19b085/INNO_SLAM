@@ -934,7 +934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 552176599}
   pathMaterial: {fileID: 2100000, guid: 3416fd91e74272144b62f4cfcb40e612, type: 2}
-  punkt: {fileID: 100000, guid: aa56074584965524093e852b02a99de7, type: 3}
+  punkt: {fileID: 1000010880751780, guid: c3c0707254334a64ca8198f7486e977d, type: 3}
   tPunkt: {fileID: 400000, guid: aa56074584965524093e852b02a99de7, type: 3}
 --- !u!195 &782961166
 NavMeshAgent:

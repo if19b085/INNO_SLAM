@@ -6,8 +6,7 @@ using System;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json.Linq;
-
-
+using UnityEngine.Networking;
 
 public class FullTextSearch : MonoBehaviour
 {
@@ -55,7 +54,20 @@ public class FullTextSearch : MonoBehaviour
 
     public void JsonParse()
     {
-        string jsonString = File.ReadAllText("Assets/SLAM/JSON/fhtwroomsF_E.json");
+        var loadingRequest = UnityWebRequest.Get(Path.Combine(Application.streamingAssetsPath, "fhtwroomsF_E.json"));
+        loadingRequest.SendWebRequest();
+        while (!loadingRequest.isDone)
+        {
+            if (loadingRequest.isNetworkError || loadingRequest.isHttpError)
+            {
+                break;
+            }
+        }
+
+        string jsonString = loadingRequest.downloadHandler.text;
+
+
+        //string jsonString = File.ReadAllText("Assets/StreamingAssets/fhtwroomsF_E.json");
         JObject data = JObject.Parse(jsonString);
         string roomArray = data["roomDescriptions"].ToString();
         JArray jArray = JArray.Parse(roomArray);
