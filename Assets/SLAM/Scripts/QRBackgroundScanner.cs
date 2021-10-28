@@ -10,17 +10,16 @@ public class QRBackgroundScanner : MonoBehaviour
 {
 
     public ARCameraManager cameraManager;
-
+    public AudioSource beepSound;
     string QrCode = string.Empty;
     
     
 
     void Start()
     {
+        beepSound = GetComponent<AudioSource>();
+        var renderer = GetComponent<RawImage>();
 
-
-        var renderer = GetComponent<RawImage>();      
-       
         StartCoroutine(GetQRCode());
         InvokeRepeating(nameof(GetAnotherQrCode), 2f, 2f);
     }
@@ -29,7 +28,7 @@ public class QRBackgroundScanner : MonoBehaviour
     IEnumerator GetQRCode()
     {
 
-
+        
         try
         {
             if (cameraManager.TryAcquireLatestCpuImage(out XRCpuImage cpuImage))
@@ -60,6 +59,7 @@ public class QRBackgroundScanner : MonoBehaviour
                                 SceneDataHandler.myData.startZ = z;
                                 Debug.Log(x + ", " + z);                              
                                 QrCode = null;
+                                beepSound.Play();
                                 
                             }
                         }
@@ -77,13 +77,10 @@ public class QRBackgroundScanner : MonoBehaviour
 
     }
 
-    private void DisplayDialog(string v1, string v2, string v3)
-    {
-        throw new NotImplementedException();
-    }
 
     void GetAnotherQrCode()
     {
+        
         try
         {
             if (cameraManager.TryAcquireLatestCpuImage(out XRCpuImage cpuImage))
