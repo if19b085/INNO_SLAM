@@ -12,15 +12,19 @@ public class QRBackgroundScanner : MonoBehaviour
     public ARCameraManager cameraManager;
 
     string QrCode = string.Empty;
-    
-    
+
+    public Text text;
+
+    double R, G, B;
+
+    IBarcodeReader reader;
 
     void Start()
     {
 
-
-        var renderer = GetComponent<RawImage>();      
-       
+        reader = new BarcodeReader();
+        var renderer = GetComponent<RawImage>();
+        text.text = "Hi:";
         StartCoroutine(GetQRCode());
         InvokeRepeating(nameof(GetAnotherQrCode), 2f, 2f);
     }
@@ -34,6 +38,8 @@ public class QRBackgroundScanner : MonoBehaviour
         {
             if (cameraManager.TryAcquireLatestCpuImage(out XRCpuImage cpuImage))
             {
+                text.text += "try cpuImage";
+                text.text += cpuImage.Equals(null);
                 using (cpuImage)
                 {
                     var texture = new Texture2D(cpuImage.width, cpuImage.height, cpuImage.format.AsTextureFormat(), false);
@@ -41,27 +47,32 @@ public class QRBackgroundScanner : MonoBehaviour
                     var conversionParams = new XRCpuImage.ConversionParams(cpuImage, cpuImage.format.AsTextureFormat(), XRCpuImage.Transformation.MirrorY);
                     var rawTextureData = texture.GetRawTextureData<byte>();
                     cpuImage.Convert(conversionParams, rawTextureData);
+                    text.text += "convert cpuImage";
                     texture.Apply();
+                    text.text += "texture apply";
 
                     IBarcodeReader barCodeReader = new BarcodeReader();
                     var Result = barCodeReader.Decode(texture.GetRawTextureData(), texture.width, texture.height, RGBLuminanceSource.BitmapFormat.ARGB32);
+                    text.text += Result.Text;
 
                     if (Result != null)
                     {
                         QrCode = Result.Text;
                         if (!string.IsNullOrEmpty(QrCode))
                         {
-                            if (!string.IsNullOrEmpty(QrCode))
-                            {
-                                string[] xAndZ = QrCode.Split('/');
-                                float x = float.Parse(xAndZ[0]);
-                                float z = float.Parse(xAndZ[1]);
-                                SceneDataHandler.myData.startX = x;
-                                SceneDataHandler.myData.startZ = z;
-                                Debug.Log(x + ", " + z);                              
-                                QrCode = null;
-                                
-                            }
+                            text.text = QrCode;
+                            string[] xAndZ = QrCode.Split('/');
+                            float x = float.Parse(xAndZ[0]);
+                            float z = float.Parse(xAndZ[1]);
+                            SceneDataHandler.myData.startX = x;
+                            SceneDataHandler.myData.startZ = z;
+                            text.text += (x + ", " + z);
+                            QrCode = null;
+
+                        }
+                        else
+                        {
+                            text.text += Result.ToString();
                         }
                     }
                 }
@@ -72,7 +83,7 @@ public class QRBackgroundScanner : MonoBehaviour
 
 
 
-        catch (Exception ex) { Debug.LogWarning(ex.Message); }
+        catch (Exception ex) { text.text = (ex.Message); }
         yield return null;
 
     }
@@ -86,39 +97,51 @@ public class QRBackgroundScanner : MonoBehaviour
     {
         try
         {
-            if (cameraManager.TryAcquireLatestCpuImage(out XRCpuImage cpuImage))
+            if (cameraManager.TryAcquireLatestCpuImage(out XRCpuImage image))
             {
-                using (cpuImage)
+                text.text += "try cpuImage";
+                text.text += image.ToString();
+
+                XRCpuImage cpuImage = image;
+
+                var conversionParams = new XRCpuImage.ConversionParams(cpuImage, TextureFormat.ARGB32, XRCpuImage.Transformation.MirrorY);
+                text.text += conversionParams.Equals(null);
+                var texture = new Texture2D(cpuImage.width, cpuImage.height, TextureFormat.ARGB32, false);
+                text.text += texture.Equals(null);                
+                var rawTextureData = texture.GetRawTextureData<byte>();
+                text.text += rawTextureData.Equals(null);
+                cpuImage.Convert(conversionParams, rawTextureData);
+                text.text += "convert cpuImage";
+                texture.Apply();
+                text.text += "texture apply";
+
+                byte[] rawRgb = texture.GetRawTextureData();
+
+               
+                var Result = reader.Decode(texture.GetRawTextureData(), texture.width, texture.height, RGBLuminanceSource.BitmapFormat.ARGB32);
+                text.text += Result.Text;
+
+                if (Result != null)
                 {
-                    var texture = new Texture2D(cpuImage.width, cpuImage.height, cpuImage.format.AsTextureFormat(), false);
-
-                    var conversionParams = new XRCpuImage.ConversionParams(cpuImage, cpuImage.format.AsTextureFormat(), XRCpuImage.Transformation.MirrorY);
-                    var rawTextureData = texture.GetRawTextureData<byte>();
-                    cpuImage.Convert(conversionParams, rawTextureData);
-                    texture.Apply();
-
-                    IBarcodeReader barCodeReader = new BarcodeReader();
-                    var Result = barCodeReader.Decode(texture.GetRawTextureData(), texture.width, texture.height, RGBLuminanceSource.BitmapFormat.ARGB32);
-
-                    if (Result != null)
+                    QrCode = Result.Text;
+                    if (!string.IsNullOrEmpty(QrCode))
                     {
-                        QrCode = Result.Text;
-                        if (!string.IsNullOrEmpty(QrCode))
-                        {
-                            if (!string.IsNullOrEmpty(QrCode))
-                            {
-                                string[] xAndZ = QrCode.Split('/');
-                                float x = float.Parse(xAndZ[0]);
-                                float z = float.Parse(xAndZ[1]);
-                                SceneDataHandler.myData.startX = x;
-                                SceneDataHandler.myData.startZ = z;
-                                Debug.Log(x + ", " + z);
-                                QrCode = null;
-                               
-                            }
-                        }
+                        text.text = QrCode;
+                        string[] xAndZ = QrCode.Split('/');
+                        float x = float.Parse(xAndZ[0]);
+                        float z = float.Parse(xAndZ[1]);
+                        SceneDataHandler.myData.startX = x;
+                        SceneDataHandler.myData.startZ = z;
+                        text.text += (x + ", " + z);
+                        QrCode = null;
+
+                    }
+                    else
+                    {
+                        text.text += Result.ToString();
                     }
                 }
+
             }
         }
 
@@ -126,12 +149,22 @@ public class QRBackgroundScanner : MonoBehaviour
 
 
 
-        catch (Exception ex) { Debug.LogWarning(ex.Message); }
-        
+        catch (Exception ex) { text.text += (ex.Message); }
+
 
     }
 
+    void RGBfromYUV(double Y, double U, double V)
+    {
+        Y -= 16;
+        U -= 128;
+        V -= 128;
+        R = 1.164 * Y + 1.596 * V;
+        G = 1.164 * Y - 0.392 * U - 0.813 * V;
+        B = 1.164 * Y + 2.017 * U;
+    }
 
+}
 
 
 
@@ -220,4 +253,4 @@ public class QRBackgroundScanner : MonoBehaviour
         texture.Apply();
     }
     }*/
-}
+
