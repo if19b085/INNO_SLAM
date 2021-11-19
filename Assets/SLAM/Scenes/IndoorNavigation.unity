@@ -745,12 +745,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: cbd1f4c0437688545bd674221909a114,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cbd1f4c0437688545bd674221909a114,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.8
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cbd1f4c0437688545bd674221909a114,
         type: 3}
@@ -811,6 +811,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394693769120690257, guid: cbd1f4c0437688545bd674221909a114,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbd1f4c0437688545bd674221909a114, type: 3}
@@ -1312,7 +1317,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493355157}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -27.65, y: 55.61, z: -0.15}
+  m_LocalPosition: {x: -27.65, y: 20, z: 0}
   m_LocalScale: {x: 0.29138213, y: 0.8072448, z: 0.07351588}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1325,7 +1330,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493355157}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1493355160
 Camera:
   m_ObjectHideFlags: 0
@@ -1350,10 +1355,10 @@ Camera:
     width: 2
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 25
   field of view: 60
-  orthographic: 0
-  orthographic size: 2
+  orthographic: 1
+  orthographic size: 32
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -1379,7 +1384,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8983cee7a630e734faf03de6569a9813,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0051612854
+      value: 2.8505162e+10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8983cee7a630e734faf03de6569a9813,
         type: 3}
