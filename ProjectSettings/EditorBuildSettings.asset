@@ -131,16 +131,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/SLAM/Scenes/Menu.unity
     guid: 987d5b02b0776b54c8af2db0af3003e5
-  - enabled: 1
+  - enabled: 0
     path: Assets/SLAM/Scenes/SearchItems.unity
     guid: 619e5c6646a32014196700bd76411299
   - enabled: 0
     path: Assets/SLAM/Scenes/QRScan.unity
     guid: 575364674b5d0c848ad0456990dc19c1
-  - enabled: 1
+  - enabled: 0
     path: Assets/SLAM/Scenes/RoomDescription.unity
     guid: 604dec25d955cf5449e7bacd838e20a6
-  - enabled: 1
+  - enabled: 0
     path: Assets/SLAM/Scenes/QRCodeScanner.unity
     guid: d9b008c806c228b45a955b0a1eb98ef7
   - enabled: 1
