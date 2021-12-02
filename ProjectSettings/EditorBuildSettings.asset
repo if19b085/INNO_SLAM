@@ -137,10 +137,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/SLAM/Scenes/QRScan.unity
     guid: 575364674b5d0c848ad0456990dc19c1
-  - enabled: 0
+  - enabled: 1
     path: Assets/SLAM/Scenes/RoomDescription.unity
     guid: 604dec25d955cf5449e7bacd838e20a6
-  - enabled: 0
+  - enabled: 1
     path: Assets/SLAM/Scenes/QRCodeScanner.unity
     guid: d9b008c806c228b45a955b0a1eb98ef7
   - enabled: 1
