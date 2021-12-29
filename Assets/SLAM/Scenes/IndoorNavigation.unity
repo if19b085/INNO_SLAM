@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 149191865}
   m_Layer: 11
   m_Name: AR Session Origin
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -594,17 +594,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8983cee7a630e734faf03de6569a9813,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.006451613
+      value: 0.0056
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8983cee7a630e734faf03de6569a9813,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.049333338
+      value: 0.0479
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8983cee7a630e734faf03de6569a9813,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.01400001
+      value: 0.014
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8983cee7a630e734faf03de6569a9813,
         type: 3}
@@ -833,7 +833,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552176595}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.65, y: 0, z: 1.57}
+  m_LocalPosition: {x: -6.92, y: 0, z: 4.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1036,7 +1036,7 @@ GameObject:
   - component: {fileID: 782961165}
   m_Layer: 10
   m_Name: MapFigure
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1049,7 +1049,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782961160}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -1112,7 +1112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782961160}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.15}
+  m_LocalPosition: {x: -0.12, y: 0, z: 0.52}
   m_LocalScale: {x: 0.8072448, y: 0.22054762, z: 0.8741464}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1134,6 +1134,9 @@ MonoBehaviour:
   pathMaterial: {fileID: 2100000, guid: 3416fd91e74272144b62f4cfcb40e612, type: 2}
   punkt: {fileID: 1000010880751780, guid: c3c0707254334a64ca8198f7486e977d, type: 3}
   tPunkt: {fileID: 400000, guid: aa56074584965524093e852b02a99de7, type: 3}
+  player: {fileID: 782961160}
+  targettwo: {fileID: 0}
+  targetthree: {fileID: 0}
 --- !u!195 &782961166
 NavMeshAgent:
   m_ObjectHideFlags: 0

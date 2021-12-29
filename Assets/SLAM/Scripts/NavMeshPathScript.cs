@@ -12,6 +12,16 @@ public class NavMeshPathScript : MonoBehaviour
     private float elapsed = 0.0f;
     public GameObject punkt;
     public Transform tPunkt;
+    [SerializeField]
+    public GameObject player;
+    [SerializeField]
+    private Transform targettwo;
+    [SerializeField]
+    private Transform targetthree;
+
+
+    private bool doneTargettwo = false;
+    private bool doneTargethree = false;
     void Start()
     {
         //Instantiate(line);
@@ -52,6 +62,9 @@ public class NavMeshPathScript : MonoBehaviour
             NavMesh.CalculatePath(transform.position, target.position, NavMesh.AllAreas, path);
 
         }
+
+
+
 
         //Line-renderer:
         //line.positionCount = path.corners.Length;
