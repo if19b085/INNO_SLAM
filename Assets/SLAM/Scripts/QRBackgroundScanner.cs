@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections;
+using System.IO;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
@@ -72,14 +75,16 @@ public class QRBackgroundScanner : MonoBehaviour
                         if (!string.IsNullOrEmpty(QrCode))
                         {
                             //text.text = QrCode;
-                            string[] xAndZ = QrCode.Split('/');
-                            float x = float.Parse(xAndZ[0]);
-                            float z = float.Parse(xAndZ[1]);
+                            //string[] xAndZ = QrCode.Split('/');
+                            //float x = float.Parse(xAndZ[0]);
+                            //float z = float.Parse(xAndZ[1]);
                             //SceneDataHandler.myData.startX = x;
                             //SceneDataHandler.myData.startZ = z;
                             //Application.LoadLevel("IndoorNavigation");
-                            figure.transform.position = new Vector3(x, 0, z);
+                            //figure.transform.position = new Vector3(x, 0, z);
                             //text.text += (x + ", " + z);
+
+                            JsonParse(Result.Text);
                             QrCode = null;
 
                         }
@@ -144,14 +149,16 @@ public class QRBackgroundScanner : MonoBehaviour
                         if (!string.IsNullOrEmpty(QrCode))
                         {
                             //text.text = QrCode;
-                            string[] xAndZ = QrCode.Split('/');
-                            float x = float.Parse(xAndZ[0]);
-                            float z = float.Parse(xAndZ[1]);
+                            //string[] xAndZ = QrCode.Split('/');
+                            //float x = float.Parse(xAndZ[0]);
+                            //float z = float.Parse(xAndZ[1]);
                             //SceneDataHandler.myData.startX = x;
                             //SceneDataHandler.myData.startZ = z;
                             //Application.LoadLevel("IndoorNavigation");
-                            figure.transform.position = new Vector3(x, 0, z);
+                            //figure.transform.position = new Vector3(x, 0, z);
                             //text.text += (x + ", " + z);
+
+                            JsonParse(Result.Text);
                             QrCode = null;
 
                         }
@@ -173,14 +180,45 @@ public class QRBackgroundScanner : MonoBehaviour
 
     }
 
-    void RGBfromYUV(double Y, double U, double V)
+    
+
+    public void JsonParse(string shortID)
     {
-        Y -= 16;
-        U -= 128;
-        V -= 128;
-        R = 1.164 * Y + 1.596 * V;
-        G = 1.164 * Y - 0.392 * U - 0.813 * V;
-        B = 1.164 * Y + 2.017 * U;
+        var loadingRequest = UnityWebRequest.Get(Path.Combine(Application.streamingAssetsPath, "fhtwroomsF_E.json"));
+        loadingRequest.SendWebRequest();
+        while (!loadingRequest.isDone)
+        {
+            if (loadingRequest.isNetworkError || loadingRequest.isHttpError)
+            {
+                break;
+            }
+        }
+
+        string jsonString = loadingRequest.downloadHandler.text;
+
+
+        //string jsonString = File.ReadAllText("Assets/StreamingAssets/fhtwroomsF_E.json");
+        JObject data = JObject.Parse(jsonString);
+        string roomArray = data["roomDescriptions"].ToString();
+        JArray jArray = JArray.Parse(roomArray);
+        foreach (JObject jObject in jArray)
+        {
+
+            var jsonID = jObject["shortId"].ToString();
+
+            if (shortID.Equals(jsonID))
+            {
+
+                var x = float.Parse(jObject["x"].ToString());
+                var z = float.Parse(jObject["z"].ToString());
+
+                //Debug.Log("x: " + float.Parse(jObject["x"].ToString()) + "\n y: " + float.Parse(jObject["z"].ToString()));
+
+                figure.transform.position = new Vector3(x, 0, z);
+                break;
+            }
+
+        }
     }
 
 }
@@ -193,6 +231,16 @@ void Start()
 {
     InvokeRepeating("Autofocus", 2f, 2f);
 }
+
+void RGBfromYUV(double Y, double U, double V)
+    {
+        Y -= 16;
+        U -= 128;
+        V -= 128;
+        R = 1.164 * Y + 1.596 * V;
+        G = 1.164 * Y - 0.392 * U - 0.813 * V;
+        B = 1.164 * Y + 2.017 * U;
+    }
 
 void Autofocus()
 {
