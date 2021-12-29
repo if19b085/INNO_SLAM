@@ -80,6 +80,7 @@ public class FullTextSearch : MonoBehaviour
             roomy.building = jObject["building"].ToString();
             roomy.xCoordinate = float.Parse(jObject["x"].ToString());
             roomy.zCoordinate = float.Parse(jObject["z"].ToString());
+            roomy.floor = int.Parse(jObject["floor"].ToString());
             roomList.Add(roomy);
         }
     }

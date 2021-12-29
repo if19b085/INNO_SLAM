@@ -91,6 +91,7 @@ public class QRScanner : MonoBehaviour
                 
                 SceneDataHandler.myData.startX = float.Parse(jObject["x"].ToString());
                 SceneDataHandler.myData.startZ = float.Parse(jObject["z"].ToString());
+                SceneDataHandler.myData.startfloor = int.Parse(jObject["floor"].ToString());
 
                 Debug.Log("x: " + float.Parse(jObject["x"].ToString()) + "\n y: " + float.Parse(jObject["z"].ToString()));
 

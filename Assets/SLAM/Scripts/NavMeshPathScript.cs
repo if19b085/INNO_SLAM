@@ -18,16 +18,25 @@ public class NavMeshPathScript : MonoBehaviour
         //line.textureMode = LineTextureMode.Tile;
         //line.GetComponent<LineRenderer>().material = pathMaterial;
         //line.gameObject.layer = 11;
+        Vector3 start = new Vector3(SceneDataHandler.myData.startX, 0, SceneDataHandler.myData.startZ);
+        transform.position = start;
 
-        target.transform.position = new Vector3(SceneDataHandler.myData.roomX, 0, SceneDataHandler.myData.roomZ);
-        //target.transform.position = new Vector3(-10, 0, 13.5f);
+        if (SceneDataHandler.myData.startfloor != SceneDataHandler.myData.roomfloor)
+        {
+            target.transform.position = new Vector3(SceneDataHandler.myData.elevatorX, 0, SceneDataHandler.myData.elevatorZ);
+        }
+        else
+        {
+            target.transform.position = new Vector3(SceneDataHandler.myData.roomX, 0, SceneDataHandler.myData.roomZ);
+            //target.transform.position = new Vector3(-10, 0, 13.5f);
+        }
+
 
         this.path = new NavMeshPath();
         elapsed = 0.0f;
         Debug.Log("Start");
         Debug.Log("Target position: " + target.position);
         NavMesh.CalculatePath(transform.position, target.position, NavMesh.AllAreas, path);
-
         hinlegen();
 
     }

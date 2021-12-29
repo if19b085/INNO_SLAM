@@ -12,5 +12,6 @@ public class Room
 
     public float xCoordinate { get; set; }
     public float zCoordinate { get; set; }
+    public int floor { get; set; }
 
 }

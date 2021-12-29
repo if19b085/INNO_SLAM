@@ -24,12 +24,18 @@ public class SceneDataHandler : MonoBehaviour
         if (FullTextSearch.roomList != null)
         {
 
+
+            
+
             foreach (var element in FullTextSearch.roomList)
             {
                 if (myData.roomName == element.id)
                 {
+                    myData.roomfloor = element.floor;
                     myData.roomX = element.xCoordinate;
                     myData.roomZ = element.zCoordinate;
+                 
+
                     break;
                 }
             }
