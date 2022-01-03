@@ -25,7 +25,7 @@ public class SceneDataHandler : MonoBehaviour
         {
 
 
-            
+
 
             foreach (var element in FullTextSearch.roomList)
             {
@@ -34,7 +34,7 @@ public class SceneDataHandler : MonoBehaviour
                     myData.roomfloor = element.floor;
                     myData.roomX = element.xCoordinate;
                     myData.roomZ = element.zCoordinate;
-                 
+
 
                     break;
                 }

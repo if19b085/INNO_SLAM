@@ -19,25 +19,32 @@ public class NavMeshPathScript : MonoBehaviour
     [SerializeField]
     private Transform targetthree;
 
+    private int yPosition = 0;
+
 
     private bool doneTargettwo = false;
     private bool doneTargethree = false;
     void Start()
     {
+        if (SceneDataHandler.myData.startfloor == 1)
+        {
+            yPosition = 20;
+        }
         //Instantiate(line);
         //line.textureMode = LineTextureMode.Tile;
         //line.GetComponent<LineRenderer>().material = pathMaterial;
         //line.gameObject.layer = 11;
-        Vector3 start = new Vector3(SceneDataHandler.myData.startX, 0, SceneDataHandler.myData.startZ);
+        Vector3 start = new Vector3(SceneDataHandler.myData.startX, yPosition, SceneDataHandler.myData.startZ);
+
         transform.position = start;
 
         if (SceneDataHandler.myData.startfloor != SceneDataHandler.myData.roomfloor)
         {
-            target.transform.position = new Vector3(SceneDataHandler.myData.elevatorX, 0, SceneDataHandler.myData.elevatorZ);
+            target.transform.position = new Vector3(SceneDataHandler.myData.elevatorX, yPosition, SceneDataHandler.myData.elevatorZ);
         }
         else
         {
-            target.transform.position = new Vector3(SceneDataHandler.myData.roomX, 0, SceneDataHandler.myData.roomZ);
+            target.transform.position = new Vector3(SceneDataHandler.myData.roomX, yPosition, SceneDataHandler.myData.roomZ);
             //target.transform.position = new Vector3(-10, 0, 13.5f);
         }
 

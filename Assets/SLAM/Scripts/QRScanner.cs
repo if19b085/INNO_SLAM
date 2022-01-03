@@ -83,12 +83,12 @@ public class QRScanner : MonoBehaviour
         JArray jArray = JArray.Parse(roomArray);
         foreach (JObject jObject in jArray)
         {
-                       
+
             var jsonID = jObject["shortId"].ToString();
 
             if (shortID.Equals(jsonID))
             {
-                
+
                 SceneDataHandler.myData.startX = float.Parse(jObject["x"].ToString());
                 SceneDataHandler.myData.startZ = float.Parse(jObject["z"].ToString());
                 SceneDataHandler.myData.startfloor = int.Parse(jObject["floor"].ToString());
@@ -98,7 +98,7 @@ public class QRScanner : MonoBehaviour
                 Application.LoadLevel("IndoorNavigation");
                 break;
             }
-            
+
         }
     }
 }
