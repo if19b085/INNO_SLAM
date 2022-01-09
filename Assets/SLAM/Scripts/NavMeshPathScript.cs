@@ -24,6 +24,8 @@ public class NavMeshPathScript : MonoBehaviour
 
     private bool doneTargettwo = false;
     private bool doneTargethree = false;
+
+
     void Start()
     {
         if (SceneDataHandler.myData.startfloor == 1)
@@ -35,11 +37,25 @@ public class NavMeshPathScript : MonoBehaviour
         //line.GetComponent<LineRenderer>().material = pathMaterial;
         //line.gameObject.layer = 11;
         Vector3 start = new Vector3(SceneDataHandler.myData.startX, yPosition, SceneDataHandler.myData.startZ);
-
+        transform.GetComponent<NavMeshAgent>().enabled = false;
         transform.position = start;
+        transform.GetComponent<NavMeshAgent>().enabled = true;
+        Debug.Log(transform.position);
+
+
 
         if (SceneDataHandler.myData.startfloor != SceneDataHandler.myData.roomfloor)
         {
+            if (SceneDataHandler.myData.startfloor == 0)
+            {
+                SceneDataHandler.myData.elevatorX = -9;
+                SceneDataHandler.myData.elevatorZ = 13;
+            }
+            else if (SceneDataHandler.myData.startfloor == 1)
+            {
+                SceneDataHandler.myData.elevatorX = -8;
+                SceneDataHandler.myData.elevatorZ = 7;
+            }
             target.transform.position = new Vector3(SceneDataHandler.myData.elevatorX, yPosition, SceneDataHandler.myData.elevatorZ);
         }
         else
@@ -53,6 +69,7 @@ public class NavMeshPathScript : MonoBehaviour
         elapsed = 0.0f;
         Debug.Log("Start");
         Debug.Log("Target position: " + target.position);
+        Debug.Log("Transform position: " + transform.position);
         NavMesh.CalculatePath(transform.position, target.position, NavMesh.AllAreas, path);
         hinlegen();
 
@@ -66,6 +83,10 @@ public class NavMeshPathScript : MonoBehaviour
         {
             elapsed -= 1.0f;
 
+            Debug.Log("my Transform" + transform.position);
+            Debug.Log("my Target" + target.position);
+            Debug.Log("my Path" + path);
+            Debug.Log("my NavMesh" + NavMesh.AllAreas);
             NavMesh.CalculatePath(transform.position, target.position, NavMesh.AllAreas, path);
 
         }
@@ -84,18 +105,18 @@ public class NavMeshPathScript : MonoBehaviour
 
     void hinlegen()
     {
-
+        Debug.Log("Hinlegen Start");
         Vector2 pathvektor = new Vector2();
         Vector2 normalvektor = new Vector2();
 
-
+        Debug.Log(path.corners.Length);
         for (int i = 0; i < path.corners.Length - 1; i++)
         {
             pathvektor.x = path.corners[i + 1].x - path.corners[i].x;
             pathvektor.y = path.corners[i + 1].z - path.corners[i].z;
 
             Vector3 hinlegvektor = new Vector3(path.corners[i].x, path.corners[i].y + 0.2f, path.corners[i].z);
-
+            Debug.Log("Hinlegen Vektor" + i + " " + hinlegvektor);
             normalvektor = pathvektor.normalized;
             double length = pathvektor.magnitude;
 
@@ -105,6 +126,7 @@ public class NavMeshPathScript : MonoBehaviour
                 hinlegvektor.z = hinlegvektor.z + normalvektor.y;
                 punkt.layer = 11;
                 Instantiate(punkt, hinlegvektor, tPunkt.rotation);
+                Debug.Log(punkt);
             }
 
         }

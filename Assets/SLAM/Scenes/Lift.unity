@@ -831,7 +831,7 @@ PrefabInstance:
     - target: {fileID: 2413659295554387367, guid: 5c19f8722f9098e4a8b3b6a9eed36b4c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: QRCodeScanner
+      value: IndoorNavigation
       objectReference: {fileID: 0}
     - target: {fileID: 2413659295554387367, guid: 5c19f8722f9098e4a8b3b6a9eed36b4c,
         type: 3}

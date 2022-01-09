@@ -10,7 +10,21 @@ public class Linkage : MonoBehaviour
 
     public void ChangeScene(string sceneName)
     {
-
+        if (sceneName == "IndoorNavigation")
+        {
+            if (SceneDataHandler.myData.startfloor == 0)
+            {
+                SceneDataHandler.myData.startfloor = 1;
+                SceneDataHandler.myData.startX = -8;
+                SceneDataHandler.myData.startZ = 32;
+            }
+            else if (SceneDataHandler.myData.startfloor == 1)
+            {
+                SceneDataHandler.myData.startfloor = 0;
+                SceneDataHandler.myData.startX = -9;
+                SceneDataHandler.myData.startZ = 13;
+            }
+        }
         Application.LoadLevel(sceneName);
     }
 }

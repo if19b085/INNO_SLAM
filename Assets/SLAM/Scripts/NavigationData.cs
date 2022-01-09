@@ -17,7 +17,7 @@ public class NavigationData : MonoBehaviour
     public int startfloor { get; set; }
     public int roomfloor { get; set; }
 
-    public float elevatorX = -9;
-    public float elevatorZ = 13;
+    public float elevatorX { get; set; }
+    public float elevatorZ { get; set; }
 
 }
