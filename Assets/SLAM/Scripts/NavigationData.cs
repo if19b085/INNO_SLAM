@@ -14,6 +14,7 @@ public class NavigationData : MonoBehaviour
     public float startX { get; set; }
     public float startZ { get; set; }
 
+    public float startRotation = 0;
     public int startfloor { get; set; }
     public int roomfloor { get; set; }
 

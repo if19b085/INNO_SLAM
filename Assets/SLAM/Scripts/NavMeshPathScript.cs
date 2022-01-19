@@ -36,11 +36,16 @@ public class NavMeshPathScript : MonoBehaviour
         //line.textureMode = LineTextureMode.Tile;
         //line.GetComponent<LineRenderer>().material = pathMaterial;
         //line.gameObject.layer = 11;
-        Vector3 start = new Vector3(SceneDataHandler.myData.startX, yPosition, SceneDataHandler.myData.startZ);
-        transform.GetComponent<NavMeshAgent>().enabled = false;
-        transform.position = start;
-        transform.GetComponent<NavMeshAgent>().enabled = true;
-        Debug.Log(transform.position);
+
+        // player.transform.position = new Vector3(SceneDataHandler.myData.startX, 1.17f + yPosition, SceneDataHandler.myData.startZ);
+        // player.transform.Rotate(0, SceneDataHandler.myData.startRotation, 0);
+
+        // Vector3 start = new Vector3(SceneDataHandler.myData.startX, yPosition, SceneDataHandler.myData.startZ);
+        // transform.GetComponent<NavMeshAgent>().enabled = false;
+        // transform.position = start;
+        // //transform.Rotate(0, SceneDataHandler.myData.startRotation, 0);
+        // transform.GetComponent<NavMeshAgent>().enabled = true;
+        // Debug.Log(transform.position);
 
 
 
@@ -87,8 +92,6 @@ public class NavMeshPathScript : MonoBehaviour
             Debug.Log("my Target" + target.position);
             Debug.Log("my Path" + path);
             Debug.Log("my NavMesh" + NavMesh.AllAreas);
-            NavMesh.CalculatePath(transform.position, target.position, NavMesh.AllAreas, path);
-
         }
 
 
