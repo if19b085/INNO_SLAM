@@ -34,6 +34,7 @@ public class SceneDataHandler : MonoBehaviour
                     myData.roomfloor = element.floor;
                     myData.roomX = element.xCoordinate;
                     myData.roomZ = element.zCoordinate;
+                    myData.roomDescription = element.description;
 
 
                     break;

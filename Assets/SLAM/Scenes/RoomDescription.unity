@@ -531,6 +531,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1432399500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2881544766958595464, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
+    type: 3}
+  m_PrefabInstance: {fileID: 554651666362751349}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1499826375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -834,6 +840,16 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0.5261088
       objectReference: {fileID: 0}
+    - target: {fileID: 796222766197294668, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -142.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 796222766197294668, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 114.63566
+      objectReference: {fileID: 0}
     - target: {fileID: 4268175670459864138, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
         type: 3}
       propertyPath: m_Name
@@ -849,12 +865,12 @@ PrefabInstance:
     - target: {fileID: 4543945914337397183, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
         type: 3}
       propertyPath: m_FontData.m_HorizontalOverflow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4903639447599560144, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.49993896
+      value: 92.5
       objectReference: {fileID: 0}
     - target: {fileID: 4903639447599560144, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
         type: 3}
@@ -865,6 +881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4903639447599560144, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 179.05687
       objectReference: {fileID: 0}
     - target: {fileID: 5850464750937721088, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
         type: 3}
@@ -971,6 +992,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6103890615685130832, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
+        type: 3}
+      propertyPath: m_Text
+      value: -----------------------
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0, type: 3}
 --- !u!224 &554651666362751350 stripped
@@ -1004,6 +1030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: {fileID: 554651666362751351}
+  Description: {fileID: 1432399500}
 --- !u!1001 &5818676364528150720
 PrefabInstance:
   m_ObjectHideFlags: 0

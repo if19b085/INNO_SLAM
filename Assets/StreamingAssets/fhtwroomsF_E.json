@@ -6,8 +6,8 @@
       "shortId": "F0.01",
       "building": "F",
       "x": -25.7,
-      "z":2, 
-      "floor":0
+      "z": 2,
+      "floor": 0
     },
     {
       "id": "HS_F0.02",
@@ -15,44 +15,107 @@
       "shortId": "F0.02",
       "building": "F",
       "x": -21.7,
-      "z": 2, 
-      "floor":0
+      "z": 2,
+      "floor": 0
     },
     {
-      "id": "HS_F0.03",
+      "id": "Lift_F0",
       "description": "Aufzug Erdgeschoss",
-      "shortId": "F0.03",
+      "shortId": "L.F0",
       "building": "F",
       "x": -9,
-      "z": 13, 
-      "floor":0
+      "z": 13,
+      "floor": 0
     },
     {
-      "id": "HS_F0.04",
+      "id": "WC_F0",
       "description": "Toilette Erdgeschoss",
-      "shortId": "F0.04",
+      "shortId": "WC.F0",
       "building": "F",
       "x": -53,
-      "z": 9, 
-      "floor":0
+      "z": 9,
+      "floor": 0
     },
     {
-      "id": "HS_F0.05",
+      "id": "Rezeption",
       "description": "Rezeption",
-      "shortId": "F0.05",
+      "shortId": "R.F0",
       "building": "F",
       "x": -4,
-      "z": 0, 
-      "floor":0
+      "z": 0,
+      "floor": 0
+    },
+    {
+      "id": "WC_F1",
+      "description": "Toilette 1. Stock",
+      "shortId": "WC.F1",
+      "building": "F",
+      "x": -2,
+      "z": 6,
+      "floor": 1
+    },
+    {
+      "id": "Lift_F1",
+      "description": "Aufzug 1. Stock",
+      "shortId": "L.F1",
+      "building": "F",
+      "x": -8,
+      "z": 7,
+      "floor": 1
+    },
+    {
+      "id": "HS_F1.01",
+      "description": "Hörsaal",
+      "shortId": "F1.01",
+      "building": "F",
+      "x": -25,
+      "z": 9.5,
+      "floor": 1
+    },
+    {
+      "id": "HS_F1.02",
+      "description": "Hörsaal",
+      "shortId": "F1.02",
+      "building": "F",
+      "x": -28.5,
+      "z": 9.5,
+      "floor": 1
+    },
+    {
+      "id": "HS_F1.03",
+      "description": "Hörsaal",
+      "shortId": "F1.03",
+      "building": "F",
+      "x": -48.5,
+      "z": 9.5,
+      "floor": 1
+    },
+    {
+      "id": "HS_F1.04",
+      "description": "Hörsaal",
+      "shortId": "F1.04",
+      "building": "F",
+      "x": -51.5,
+      "z": 9.5,
+      "floor": 1
     },
     {
       "id": "HS_F1.05",
-      "description": "test",
+      "description": "Hörsaal",
       "shortId": "F1.05",
       "building": "F",
-      "x": -4,
-      "z": 0, 
-      "floor":1
+      "x": -55.5,
+      "z": 10.5,
+      "floor": 1
+    },
+    {
+      "id": "HS_F1.06",
+      "description": "Hörsaal",
+      "shortId": "F1.06",
+      "building": "F",
+      "x": -55,
+      "z": 4,
+      "floor": 1
     }
 
   ]
