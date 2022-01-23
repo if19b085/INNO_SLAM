@@ -839,10 +839,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomDescription
       objectReference: {fileID: 0}
+    - target: {fileID: 4543945914337397183, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
+        type: 3}
+      propertyPath: m_Text
+      value: '12345678
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543945914337397183, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
+        type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4903639447599560144, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.49993896
+      objectReference: {fileID: 0}
+    - target: {fileID: 4903639447599560144, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4903639447599560144, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5850464750937721088, guid: 55d99e983a12bc74f9b8fe8a8d0e39d0,
         type: 3}
