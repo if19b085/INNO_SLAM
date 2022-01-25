@@ -13,6 +13,7 @@ public class InElevator : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+
             Debug.Log("Elevator was triggered");
             SceneManager.LoadScene(NewScene);
             //Application.LoadLevel(NewScene);

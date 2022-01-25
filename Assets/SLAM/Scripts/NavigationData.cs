@@ -7,17 +7,16 @@ public class NavigationData : MonoBehaviour
     public string roomName { get; set; }
     public string roomDescription { get; set; }
 
-    public float roomX { get; set; }
+    public float roomX = -20;
 
-    public float roomZ { get; set; }
+    public float roomZ = 11;
 
-    public float startX { get; set; }
-    public float startZ { get; set; }
+    public float startX = -5;
+    public float startZ = 0;
 
     public float startRotation = 0;
-    public int startfloor { get; set; }
-    public int roomfloor { get; set; }
-
+    public int startfloor = 0;
+    public int roomfloor = 1;
     public float elevatorX { get; set; }
     public float elevatorZ { get; set; }
 

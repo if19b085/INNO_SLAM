@@ -16,7 +16,7 @@ public class Linkage : MonoBehaviour
             {
                 SceneDataHandler.myData.startfloor = 1;
                 SceneDataHandler.myData.startX = -8;
-                SceneDataHandler.myData.startZ = 32;
+                SceneDataHandler.myData.startZ = 6;
             }
             else if (SceneDataHandler.myData.startfloor == 1)
             {

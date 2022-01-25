@@ -5,18 +5,18 @@
       "description": "Festsaal",
       "shortId": "F0.01",
       "building": "F",
-      "x": -25.7,
-      "z": 2,
-      "floor": 0
+      "x": -27.7,
+      "z":2, 
+      "floor":0
     },
     {
       "id": "HS_F0.02",
       "description": "Hörsaal",
       "shortId": "F0.02",
       "building": "F",
-      "x": -21.7,
-      "z": 2,
-      "floor": 0
+      "x": -16.7,
+      "z": 2, 
+      "floor":0
     },
     {
       "id": "Lift_F0",

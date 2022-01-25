@@ -10,12 +10,19 @@ public class MiniMapMovement : MonoBehaviour
     public GameObject CameraTarget;
     private Vector3 PrevARPosePosition;
 
+    [SerializeField]
+    private GameObject ARSessionOrigin;
+    [SerializeField]
+    private GameObject ARSession;
+
     private float yRotation;
 
     private bool Tracking = false;
 
     private float yPosition = 0;
     // Start is called before the first frame update
+
+    private bool startPositionSet = false;
     public void Awake()
     {
         // Enable ARCore to target 60fps camera capture frame rate on supported devices.
@@ -34,10 +41,12 @@ public class MiniMapMovement : MonoBehaviour
         //line.textureMode = LineTextureMode.Tile;
         //line.GetComponent<LineRenderer>().material = pathMaterial;
         //line.gameObject.layer = 11;
-
-        FirstPersonCamera.transform.position = new Vector3(SceneDataHandler.myData.startX, 1.17f + yPosition, SceneDataHandler.myData.startZ);
-        FirstPersonCamera.transform.rotation = Quaternion.Euler(0, SceneDataHandler.myData.startRotation, 0);
-
+        ARSessionOrigin.transform.position = new Vector3(SceneDataHandler.myData.startX, yPosition + 1, SceneDataHandler.myData.startZ);
+        ARSessionOrigin.transform.rotation = Quaternion.Euler(0, SceneDataHandler.myData.startRotation, 0);
+        // FirstPersonCamera.transform.position = new Vector3(SceneDataHandler.myData.startX, 1.17f + yPosition, SceneDataHandler.myData.startZ);
+        // FirstPersonCamera.transform.rotation = Quaternion.Euler(0, SceneDataHandler.myData.startRotation, 0);
+        ARSession.transform.position = new Vector3(SceneDataHandler.myData.startX, yPosition + 1, SceneDataHandler.myData.startZ);
+        ARSession.transform.rotation = Quaternion.Euler(0, SceneDataHandler.myData.startRotation, 0);
         CameraTarget.GetComponent<NavMeshAgent>().enabled = false;
         CameraTarget.transform.position = new Vector3(SceneDataHandler.myData.startX, yPosition, SceneDataHandler.myData.startZ);
         CameraTarget.transform.rotation = Quaternion.Euler(0, SceneDataHandler.myData.startRotation, 0);
@@ -49,11 +58,25 @@ public class MiniMapMovement : MonoBehaviour
     void Start()
     {
         PrevARPosePosition = Vector3.zero;
+        // CameraTarget.GetComponent<NavMeshAgent>().enabled = false;
+        // CameraTarget.transform.position = new Vector3(SceneDataHandler.myData.startX, yPosition, SceneDataHandler.myData.startZ);
+        // CameraTarget.transform.rotation = Quaternion.Euler(0, SceneDataHandler.myData.startRotation, 0);
+        // CameraTarget.GetComponent<NavMeshAgent>().enabled = true;
+
+        //ARSessionOrigin.transform.position = new Vector3(SceneDataHandler.myData.startX, yPosition, SceneDataHandler.myData.startZ);
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        // if (!startPositionSet)
+        // {
+        //     CameraTarget.transform.position = new Vector3(SceneDataHandler.myData.startX, yPosition, SceneDataHandler.myData.startZ);
+        //     CameraTarget.transform.rotation = Quaternion.Euler(0, SceneDataHandler.myData.startRotation, 0);
+        //     startPositionSet = true;
+        // }
         //UpdateApplicationLifecycle();
         //move the person indicator according to position
         Vector3 currentARPosition = FirstPersonCamera.transform.position;
